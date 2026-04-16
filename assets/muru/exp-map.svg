@@ -1,0 +1,1006 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5102" height="2542" viewBox="0 0 5102 2542">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="125" height="30" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect width="8" height="8" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect width="141.146" height="30" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-7">
+      <rect id="Mask-3" data-name="Mask" width="141.146" height="30" rx="4" fill="#95249e"/>
+    </clipPath>
+    <clipPath id="clip-path-16">
+      <rect width="165.776" height="30" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-17">
+      <rect id="Mask-8" data-name="Mask" width="165.776" height="30" rx="4" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-18">
+      <rect width="123" height="30" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-19">
+      <rect id="Mask-9" data-name="Mask" width="123" height="30" rx="4" fill="#249e6b"/>
+    </clipPath>
+    <clipPath id="clip-path-24">
+      <rect width="93" height="147" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-27">
+      <rect width="93" height="149" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-32">
+      <rect width="142.473" height="30" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-33">
+      <rect id="Mask-15" data-name="Mask" width="142.473" height="30" rx="4" fill="#249e6b"/>
+    </clipPath>
+    <clipPath id="clip-path-44">
+      <rect id="Mask-20" data-name="Mask" width="125" height="30" rx="4" fill="#249e6b"/>
+    </clipPath>
+    <clipPath id="clip-path-45">
+      <path id="Path_308" data-name="Path 308" d="M532.471,437.287a3.143,3.143,0,0,1-3.31,3.437,3.207,3.207,0,0,1-3.395-3.437v-8.635h-3.352v8.635c0,3.925,2.631,6.365,6.747,6.365,4.095,0,6.662-2.44,6.662-6.365v-8.635h-3.352Z" transform="translate(-522.414 -428.652)" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-46">
+      <path id="Path_309" data-name="Path 309" d="M717.21,433.808c0-3.289-2.206-5.156-6.089-5.156h-6.45V443.5h3.352V439.26h3.416l2.355,4.243h3.8l-3.161-4.9A4.9,4.9,0,0,0,717.21,433.808Zm-6.089,2.652h-3.1v-5.028h3.1c1.846,0,2.907.827,2.907,2.482C714.028,435.611,712.967,436.46,711.121,436.46Z" transform="translate(-704.671 -428.652)" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-47">
+      <path id="Path_310" data-name="Path 310" d="M882.366,428.652v8.635a3.143,3.143,0,0,1-3.31,3.437,3.207,3.207,0,0,1-3.395-3.437v-8.635H872.31v8.635c0,3.925,2.631,6.365,6.747,6.365,4.095,0,6.662-2.44,6.662-6.365v-8.635Z" transform="translate(-872.31 -428.652)" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-48">
+      <path id="Path_313" data-name="Path 313" d="M278.366,428.652l-4.307,9.081-4.328-9.081h-.445v.019l-3.071-.019v2.839l-2.46-1.418L261.66,433.7l4.123,2.38-4.135,2.385,2.107,3.648,2.46-1.391v2.812h3.516v-8.489L272.956,442h2.185l3.946-8.508V443.5H282.1V428.652ZM268.018,431a.331.331,0,0,1,.346.344l-.02.915a.539.539,0,0,0-.558-.313c-.033,0-.067,0-.1.006l-.013-.605A.332.332,0,0,1,268.018,431Zm.32,1.516-.064,2.959a1.748,1.748,0,0,1-.5.48l-.069-3.089.115-.036C268.031,432.767,268.263,432.7,268.339,432.515Zm-1.364.1,0-.008a.835.835,0,0,1,.809-.527c.2,0,.44.079.44.3,0,.17-.168.232-.444.315-.222.067-.452.135-.531.326a.589.589,0,0,0,.086.5l.2.33v.729A1.864,1.864,0,0,1,266.975,432.618Zm1.189,7.957a1.884,1.884,0,0,1-.113.342s-.037.133-.01.162.048.022.048.022.021,0,.032,0c-.027.059-.065.09-.1.09-.067,0-.138-.1-.138-.294v-.209l-.027-1.227a.569.569,0,0,1,.338-.372l.005,0Zm.3.021a.52.52,0,0,1-.265.343,2.5,2.5,0,0,0,.164-.808A.485.485,0,0,1,268.462,440.6Zm.193-2.483a1.17,1.17,0,0,1-.53.85c-.4.2-.447.462-.453.9a.9.9,0,0,1-.187-.651,1.122,1.122,0,0,1,.569-.755l.007,0a1.233,1.233,0,0,0,.372-1.061A.933.933,0,0,1,268.656,438.114Zm-.854-.957a1.041,1.041,0,0,1,.447-.473L268.22,438a.746.746,0,0,1-.241.346c-.053.033-.1.068-.148.1Zm.86-.949a2.386,2.386,0,0,1-.4.3,1.122,1.122,0,0,0-.649.86.975.975,0,0,1-.283-.7c0-.22.238-.393.49-.576.322-.234.687-.5.687-.946v-.677a1.4,1.4,0,0,1,.471.929A1.054,1.054,0,0,1,268.661,436.208Z" transform="translate(-261.648 -428.652)" fill="#386fd1"/>
+    </clipPath>
+    <clipPath id="clip-path-49">
+      <path id="Path_313-2" data-name="Path 313" d="M278.366,428.652l-4.307,9.081-4.328-9.081h-.445v.019l-3.071-.019v2.839l-2.46-1.418L261.66,433.7l4.123,2.38-4.135,2.385,2.107,3.648,2.46-1.391v2.812h3.516v-8.489L272.956,442h2.185l3.946-8.508V443.5H282.1V428.652ZM268.018,431a.331.331,0,0,1,.346.344l-.02.915a.539.539,0,0,0-.558-.313c-.033,0-.067,0-.1.006l-.013-.605A.332.332,0,0,1,268.018,431Zm.32,1.516-.064,2.959a1.748,1.748,0,0,1-.5.48l-.069-3.089.115-.036C268.031,432.767,268.263,432.7,268.339,432.515Zm-1.364.1,0-.008a.835.835,0,0,1,.809-.527c.2,0,.44.079.44.3,0,.17-.168.232-.444.315-.222.067-.452.135-.531.326a.589.589,0,0,0,.086.5l.2.33v.729A1.864,1.864,0,0,1,266.975,432.618Zm1.189,7.957a1.884,1.884,0,0,1-.113.342s-.037.133-.01.162.048.022.048.022.021,0,.032,0c-.027.059-.065.09-.1.09-.067,0-.138-.1-.138-.294v-.209l-.027-1.227a.569.569,0,0,1,.338-.372l.005,0Zm.3.021a.52.52,0,0,1-.265.343,2.5,2.5,0,0,0,.164-.808A.485.485,0,0,1,268.462,440.6Zm.193-2.483a1.17,1.17,0,0,1-.53.85c-.4.2-.447.462-.453.9a.9.9,0,0,1-.187-.651,1.122,1.122,0,0,1,.569-.755l.007,0a1.233,1.233,0,0,0,.372-1.061A.933.933,0,0,1,268.656,438.114Zm-.854-.957a1.041,1.041,0,0,1,.447-.473L268.22,438a.746.746,0,0,1-.241.346c-.053.033-.1.068-.148.1Zm.86-.949a2.386,2.386,0,0,1-.4.3,1.122,1.122,0,0,0-.649.86.975.975,0,0,1-.283-.7c0-.22.238-.393.49-.576.322-.234.687-.5.687-.946v-.677a1.4,1.4,0,0,1,.471.929A1.054,1.054,0,0,1,268.661,436.208Z" transform="translate(-261.648 -428.652)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-52">
+      <rect width="107" height="167" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-_10_Experience_Map">
+      <rect width="5102" height="2542"/>
+    </clipPath>
+  </defs>
+  <g id="_10_Experience_Map" data-name="10 Experience Map" clip-path="url(#clip-_10_Experience_Map)">
+    <rect width="5102" height="2542" fill="#f5f5f5"/>
+    <rect id="Base" width="223" height="61" rx="4" transform="translate(155 1871)" fill="#fff"/>
+    <text id="Experience_Map" data-name="Experience Map" transform="translate(150 218)" fill="#0d3275" font-size="72" font-family="Barlow-Black, Barlow Black" font-weight="800" letter-spacing="-0.028em"><tspan x="0" y="0">Experience Map</tspan></text>
+    <text id="This_is_where_all_us" data-name="This is where all us" transform="translate(1234 1288)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">This is where all </tspan><tspan x="0" y="43">users will sign in </tspan><tspan x="0" y="59">using a username </tspan><tspan x="0" y="75">and password </tspan><tspan x="0" y="91">generated by our </tspan><tspan x="0" y="107">admin tools.</tspan><tspan x="0" y="123"></tspan></tspan><tspan x="0" y="139">V2</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="155">You would still log in </tspan><tspan x="0" y="171">with your username </tspan><tspan x="0" y="187">and password. </tspan></tspan></text>
+    <text id="A_high_level_overvie" data-name="A high level overvie" transform="translate(150 288)" fill="#777791" font-size="36" font-family="Barlow-Regular, Barlow"><tspan x="0" y="0">A high level overview of the application</tspan></text>
+    <g id="Page" transform="translate(690 1076)">
+      <g id="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label" transform="translate(690 1036)" clip-path="url(#clip-path)">
+      <g id="Color">
+        <rect id="Mask-23" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-2" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-3" data-name="Color">
+            <rect id="Color_background" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-2" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-2" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="10.624" y="11">1.0 Splash Screen</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-2" data-name="This is where all us" transform="translate(690 1288)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Loading screen </tspan><tspan x="0" y="43">would show a logo </tspan><tspan x="0" y="59">reveal animation.</tspan></tspan></text>
+    <line id="Line" x2="406" transform="translate(813.5 1176)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Point" d="M0,0,8,4,0,8Z" transform="translate(1216 1172)" fill="#0d3275"/>
+    <circle id="Circle" cx="4" cy="4" r="4" transform="translate(809 1172)" fill="#0d3275"/>
+    <path id="Path_520" data-name="Path 520" d="M-10482.5-14691.348c0-21.8.229-33.3,0-50.158s4.226-16.281,13.909-16.68,996.778,0,1008.444,0,13.07,4.133,13.135,10.186,0,273,0,273" transform="translate(14118.01 15065)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Mask-24" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4492 588) rotate(90)" fill="#0d3275"/>
+    <g id="Label_Secondary" data-name="Label / Secondary" transform="translate(4608 390)">
+      <g id="Rectangle-3" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-3" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="26.728" y="11">About Menu</tspan></text>
+    </g>
+    <line id="Line_90" data-name="Line 90" x2="695" transform="translate(150 335)" fill="none" stroke="#777791" stroke-linecap="round" stroke-width="1"/>
+    <rect id="Base-2" data-name="Base" width="246" height="202" rx="4" transform="translate(155 559)" fill="#fff"/>
+    <text id="Operator" transform="translate(231 622)" fill="#202020" font-size="16" font-family="Barlow-Regular, Barlow"><tspan x="0" y="0">Version 1 (Beta)</tspan></text>
+    <text id="Legend" transform="translate(155 534)" fill="#202020" font-size="20" font-family="Barlow-Black, Barlow Black" font-weight="800"><tspan x="0" y="0">Legend</tspan></text>
+    <circle id="Oval" cx="12" cy="12" r="12" transform="translate(195 604)" fill="#386fd1"/>
+    <text id="Team_Member" data-name="Team Member" transform="translate(231 666)" fill="#202020" font-size="16" font-family="Barlow-Regular, Barlow"><tspan x="0" y="0">Version 2</tspan></text>
+    <circle id="Oval-2" data-name="Oval" cx="12" cy="12" r="12" transform="translate(195 648)" fill="#249e6b"/>
+    <text id="Team_Member-2" data-name="Team Member" transform="translate(231 710)" fill="#202020" font-size="16" font-family="Barlow-Regular, Barlow"><tspan x="0" y="0">Version 3</tspan></text>
+    <circle id="Oval-3" data-name="Oval" cx="12" cy="12" r="12" transform="translate(195 692)" fill="#95249e"/>
+    <line id="Line-2" data-name="Line" x2="1807" transform="translate(1359.5 1176)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Point-2" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3166.414 1172)" fill="#0d3275"/>
+    <g id="Label-4" data-name="Label" transform="translate(1512 499)" clip-path="url(#clip-path)">
+      <g id="Color-4" data-name="Color">
+        <rect id="Mask-25" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-5" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-6" data-name="Color">
+            <rect id="Color_background-2" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-4" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-5" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="19.15" y="11">2.1 Forgot Pass</tspan></text>
+    </g>
+    <g id="Page-2" data-name="Page" transform="translate(1512 539)">
+      <g id="Rectangle-5" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle-6" data-name="Rectangle" transform="translate(1528 620)" fill="#fff4f4" stroke="#cb2323" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="93" height="15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle-7" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(1548 600)" fill="#386fd1"/>
+    <rect id="Rectangle-8" data-name="Rectangle" width="50" height="16" rx="4" transform="translate(1550 676)" fill="#5290ff"/>
+    <g id="Rectangle-9" data-name="Rectangle" transform="translate(1528 641)" fill="#fff4f4" stroke="#cb2323" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="93" height="15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+    </g>
+    <text id="This_is_where_all_us-3" data-name="This is where all us" transform="translate(1513 749)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan y="11"></tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">This would just be </tspan><tspan x="0" y="43">an error screen </tspan><tspan x="0" y="59">showing that the </tspan><tspan x="0" y="75">user was unable to </tspan><tspan x="0" y="91">login due to an error.</tspan></tspan></text>
+    <path id="Dotted_Line" data-name="Dotted Line" d="M0,533.126V12.953C.726,4.665,1.078-.189,9.107,0H23.43" transform="translate(1471 639.004)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="2 6"/>
+    <g id="Arrow" transform="translate(1494 635)" clip-path="url(#clip-path-5)">
+      <path id="Arrow-2" data-name="Arrow" d="M0,0,8,4,0,8Z" fill="#0d3275"/>
+    </g>
+    <rect id="Point_1_background" data-name="Point 1 background" width="8" height="8" transform="translate(1467 775)" fill="rgba(0,0,0,0)"/>
+    <g id="Page-3" data-name="Page" transform="translate(971 1451)">
+      <g id="Rectangle-10" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle-11" data-name="Rectangle" transform="translate(987 1532)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="93" height="15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle-12" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(1007 1512)" fill="#386fd1"/>
+    <rect id="Rectangle-13" data-name="Rectangle" width="50" height="16" rx="4" transform="translate(1009 1588)" fill="#5290ff"/>
+    <g id="Rectangle-14" data-name="Rectangle" transform="translate(987 1553)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="93" height="15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+    </g>
+    <g id="Label-6" data-name="Label" transform="translate(971 1411)" clip-path="url(#clip-path-6)">
+      <g id="Color-7" data-name="Color">
+        <rect id="Mask-26" data-name="Mask" width="141.146" height="30" rx="4" fill="#95249e"/>
+        <g id="Color-8" data-name="Color" clip-path="url(#clip-path-7)">
+          <g id="Color-9" data-name="Color">
+            <rect id="Color_background-3" data-name="Color background" width="141.146" height="30" fill="#95249e"/>
+            <rect id="Rectangle-15" data-name="Rectangle" width="141.146" height="30" fill="#95249e"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-7" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="13.783" y="11">1.1 Self Registration</tspan></text>
+    </g>
+    <g id="Label-8" data-name="Label" transform="translate(1750 499)" clip-path="url(#clip-path)">
+      <g id="Color-10" data-name="Color">
+        <rect id="Mask-27" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-11" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-12" data-name="Color">
+            <rect id="Color_background-4" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-16" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-9" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="19.828" y="11">2.2 Reset Pass</tspan></text>
+    </g>
+    <g id="Page-4" data-name="Page" transform="translate(1750 539)">
+      <g id="Rectangle-17" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <line id="Line_101" data-name="Line 101" x2="98" transform="translate(1636.5 639)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-width="2" stroke-dasharray="2 6"/>
+    <path id="Arrow-3" data-name="Arrow" d="M0,0,8,4,0,8Z" transform="translate(1732 635)" fill="#0d3275"/>
+    <text id="This_is_where_all_us-4" data-name="This is where all us" transform="translate(1750 749)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users will have to </tspan><tspan x="0" y="43">have to email their </tspan><tspan x="0" y="59">administrator in </tspan><tspan x="0" y="75">order to get their </tspan><tspan x="0" y="91">password. </tspan><tspan x="0" y="107"></tspan></tspan><tspan x="0" y="123">V2 </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="139">This would be an </tspan><tspan x="0" y="155">automated process </tspan><tspan x="0" y="171">where users will be </tspan><tspan x="0" y="187">able to reset their </tspan><tspan x="0" y="203">password using a </tspan><tspan x="0" y="219">reset link to their </tspan><tspan x="0" y="235">email account.</tspan></tspan></text>
+    <rect id="Rectangle-18" data-name="Rectangle" width="73" height="10" rx="2" transform="translate(1776 617)" fill="#386fd1"/>
+    <g id="Group_1540" data-name="Group 1540" transform="translate(-121)">
+      <path id="Path_528" data-name="Path 528" d="M2778,2209c11.327,0,15.418.147,23.922,0s14.354,4.233,14.366,11.207,0,525.133,0,525.133" transform="translate(-783 -1570)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <circle id="Mask-28" data-name="Mask" cx="4" cy="4" r="4" transform="translate(1991 635)" fill="#0d3275"/>
+    </g>
+    <rect id="Rectangle-19" data-name="Rectangle" width="50" height="16" rx="4" transform="translate(1788 637)" fill="#5290ff"/>
+    <g id="Group_1446" data-name="Group 1446" transform="translate(874.5 -88.5)">
+      <line id="Line_102" data-name="Line 102" x2="8" y2="8" transform="translate(979.5 640.5)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-width="1"/>
+      <line id="Line_103" data-name="Line 103" x1="8" y2="8" transform="translate(979.5 640.5)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-width="1"/>
+    </g>
+    <g id="Page-5" data-name="Page" transform="translate(2747 1437)">
+      <g id="Rectangle-20" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle-21" data-name="Rectangle" transform="translate(2763 1482)" fill="#d6d6d6" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="93" height="15" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle-22" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(2783 1457)" fill="#386fd1"/>
+    <rect id="Rectangle-23" data-name="Rectangle" width="93" height="76" rx="2" transform="translate(2763 1507)" fill="#f5f5f5"/>
+    <g id="Label-10" data-name="Label" transform="translate(2747 1397)" clip-path="url(#clip-path)">
+      <g id="Color-13" data-name="Color">
+        <rect id="Mask-29" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-14" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-15" data-name="Color">
+            <rect id="Color_background-5" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-24" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-11" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="11.41" y="11">3.0 New Features</tspan></text>
+    </g>
+    <g id="Group_1447" data-name="Group 1447" transform="translate(1935 -421)">
+      <path id="Line-3" data-name="Line" d="M0,1H22" transform="translate(850 2033)" fill="none" stroke="#d6d6d6" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Oval-4" data-name="Oval" cx="4" cy="4" r="4" transform="translate(842 2030)" fill="#5290ff"/>
+      <circle id="Oval-5" data-name="Oval" cx="4" cy="4" r="4" transform="translate(871 2030)" fill="#d6d6d6"/>
+      <path id="Line-4" data-name="Line" d="M0,1H22" transform="translate(879 2033)" fill="none" stroke="#d6d6d6" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Oval-6" data-name="Oval" cx="4" cy="4" r="4" transform="translate(900 2030)" fill="#d6d6d6"/>
+    </g>
+    <text id="This_is_where_all_us-5" data-name="This is where all us" transform="translate(2748 1647)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users would get a 3 </tspan><tspan x="0" y="43">step on boarding to </tspan><tspan x="0" y="59">help explain what </tspan><tspan x="0" y="75">MURU is, Search, </tspan><tspan x="0" y="91">and Notifications. </tspan><tspan x="0" y="107"></tspan></tspan><tspan x="0" y="123">V2</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="139">Each update, we </tspan><tspan x="0" y="155">would on board </tspan><tspan x="0" y="171">users to any new </tspan><tspan x="0" y="187">features.</tspan></tspan></text>
+    <path id="Dotted_Line-2" data-name="Dotted Line" d="M0,0V356.252c.726,5.677,1.078,9,9.107,8.87H23.43" transform="translate(2706 1179.874)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="2 6"/>
+    <path id="Arrow-4" data-name="Arrow" d="M0,8,8,4,0,0Z" transform="translate(2729 1541)" fill="#0d3275"/>
+    <g id="Label_Secondary-2" data-name="Label / Secondary" transform="translate(2644 1215)">
+      <g id="Rectangle-25" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="124" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="122" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-12" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="21.536" y="11">New Features</tspan></text>
+    </g>
+    <path id="Dotted_Line-3" data-name="Dotted Line" d="M0,0V356.252c.726,5.677,1.078,9,9.107,8.87H23.43" transform="translate(930 1179.874)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="2 6"/>
+    <path id="Arrow-5" data-name="Arrow" d="M0,8,8,4,0,0Z" transform="translate(953 1541)" fill="#0d3275"/>
+    <g id="Label_Secondary-3" data-name="Label / Secondary" transform="translate(867 1231)">
+      <g id="Rectangle-26" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#95249e" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-13" data-name="LABEL" transform="translate(0 8)" fill="#95249e" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="38.158" y="11">Register</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-6" data-name="This is where all us" transform="translate(971 1661)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V3</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users would be able </tspan><tspan x="0" y="43">to register on their </tspan><tspan x="0" y="59">own, without a login </tspan><tspan x="0" y="75">from their admin. </tspan><tspan x="0" y="91"></tspan><tspan x="0" y="107">Or they get an email </tspan><tspan x="0" y="123">from their </tspan><tspan x="0" y="139">organization to </tspan><tspan x="0" y="155">download the app </tspan><tspan x="0" y="171">and join the org that </tspan><tspan x="0" y="187">invited them.</tspan></tspan></text>
+    <g id="Group_1453" data-name="Group 1453" transform="translate(1091 1009)">
+      <circle id="Mask-30" data-name="Mask" cx="4" cy="4" r="4" transform="translate(0 532.34)" fill="#0d3275"/>
+      <path id="Path_527" data-name="Path 527" d="M2778,2745.336c11.327,0,15.418-.147,23.922,0s14.354-4.233,14.366-11.207,0-358.977,0-358.977" transform="translate(-2774 -2208.996)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    </g>
+    <g id="Page-6" data-name="Page" transform="translate(3184 1081)">
+      <g id="Rectangle-27" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <path id="Rectangle-28" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V39a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(3186 1083)" fill="#f5f5f5"/>
+    <g id="Label-14" data-name="Label" transform="translate(3184 1041)" clip-path="url(#clip-path)">
+      <g id="Color-16" data-name="Color">
+        <rect id="Mask-31" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-17" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-18" data-name="Color">
+            <rect id="Color_background-6" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-29" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-15" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="19.912" y="11">4.0 Dashboard</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-7" data-name="This is where all us" transform="translate(3185 1291)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">The dashboard </tspan><tspan x="0" y="43">would contain quick </tspan><tspan x="0" y="59">action cards that </tspan><tspan x="0" y="75">provide context on </tspan><tspan x="0" y="91">how users can </tspan><tspan x="0" y="107">search. </tspan><tspan x="0" y="123"></tspan><tspan x="0" y="139">There will also be </tspan><tspan x="0" y="155">the ability to browse </tspan><tspan x="0" y="171">instead of search.</tspan></tspan></text>
+    <g id="Rectangle-30" data-name="Rectangle" transform="translate(4426 657)" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+      <rect width="125" height="200" rx="4" stroke="none"/>
+      <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+    </g>
+    <path id="Rectangle-31" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(4191 433)" fill="#f5f5f5"/>
+    <g id="Label-16" data-name="Label" transform="translate(4426 617)" clip-path="url(#clip-path)">
+      <g id="Color-19" data-name="Color">
+        <rect id="Mask-32" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-20" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-21" data-name="Color">
+            <rect id="Color_background-7" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-32" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-17" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="28.066" y="11">9.2 Sources </tspan></text>
+    </g>
+    <path id="Path_529" data-name="Path 529" d="M-10482.506-14691.348c0-21.8.08-33.3,0-50.158s4.6-16.424,14.267-16.68,329.918,0,340.848,0,11.761,4.258,11.783,10.311,0,56.527,0,56.527" transform="translate(14970.509 15280)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <g id="Page-7" data-name="Page" transform="translate(4792 657)">
+      <g id="Rectangle-33" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-18" data-name="Label" transform="translate(4792 617)" clip-path="url(#clip-path-16)">
+      <g id="Color-22" data-name="Color">
+        <rect id="Mask-33" data-name="Mask" width="165.776" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-23" data-name="Color" clip-path="url(#clip-path-17)">
+          <g id="Color-24" data-name="Color">
+            <rect id="Color_background-8" data-name="Color background" width="165.776" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-34" data-name="Rectangle" width="165.776" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-19" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="14.908" y="11">9.4 Terms &amp; Conditions</tspan></text>
+    </g>
+    <path id="Mask-34" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4859 588) rotate(90)" fill="#0d3275"/>
+    <g id="Page-8" data-name="Page" transform="translate(4189 431)">
+      <g id="Rectangle-35" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-20" data-name="Label" transform="translate(4189 391)" clip-path="url(#clip-path-18)">
+      <g id="Color-25" data-name="Color">
+        <rect id="Mask-35" data-name="Mask" width="123" height="30" rx="4" fill="#249e6b"/>
+        <g id="Color-26" data-name="Color" clip-path="url(#clip-path-19)">
+          <g id="Color-27" data-name="Color">
+            <rect id="Color_background-9" data-name="Color background" width="123" height="30" fill="#249e6b"/>
+            <rect id="Rectangle-36" data-name="Rectangle" width="123" height="30" fill="#249e6b"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-21" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="27.108" y="11">9.1 Sign Out</tspan></text>
+    </g>
+    <g id="Page-9" data-name="Page" transform="translate(4608 657)">
+      <g id="Rectangle-37" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-22" data-name="Label" transform="translate(4608 617)" clip-path="url(#clip-path)">
+      <g id="Color-28" data-name="Color">
+        <rect id="Mask-36" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-29" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-30" data-name="Color">
+            <rect id="Color_background-10" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-38" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-23" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="27.34" y="11">9.3 Security</tspan></text>
+    </g>
+    <g id="Group_1456" data-name="Group 1456" transform="translate(1680 -93)">
+      <path id="Rectangle-39" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-8" data-name="This is where all us" transform="translate(4190 641)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V2</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">This is where users </tspan><tspan x="0" y="43">could sign out or </tspan><tspan x="0" y="59">change the </tspan><tspan x="0" y="75">organization that the </tspan><tspan x="0" y="91">app is currently </tspan><tspan x="0" y="107">connected with.</tspan></tspan></text>
+    <circle id="Circle-2" data-name="Circle" cx="4" cy="4" r="4" transform="translate(3304 1102)" fill="#0d3275"/>
+    <line id="Line_104" data-name="Line 104" y2="67" transform="translate(4252 306.5)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Mask-37" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4675 589) rotate(90)" fill="#0d3275"/>
+    <path id="Mask-38" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4256 373) rotate(90)" fill="#0d3275"/>
+    <path id="Path_530" data-name="Path 530" d="M3754.5,2676s.414-845.74,0-871.942,12.055-27.26,39.156-26.825,639.3,1.464,660.35,0,28.25,10.046,28.008,37.27,0,62.942,0,62.942" transform="translate(-332.99 -1570)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <g id="Page-10" data-name="Page" transform="translate(3573 1081)">
+      <g id="Rectangle-40" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-24" data-name="Label" transform="translate(3573 1041)" clip-path="url(#clip-path)">
+      <g id="Color-31" data-name="Color">
+        <rect id="Mask-39" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-32" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-33" data-name="Color">
+            <rect id="Color_background-11" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-41" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-25" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="31.444" y="11">5.0 Search</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-9" data-name="This is where all us" transform="translate(3574 1291)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users would get </tspan><tspan x="0" y="43">results based on </tspan><tspan x="0" y="59">what they searched. </tspan></tspan></text>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(3200 1132)" clip-path="url(#clip-path-24)">
+      <g id="Group_1457" data-name="Group 1457">
+        <rect id="Rectangle-42" data-name="Rectangle" width="93" height="28" rx="2" fill="#f5f5f5"/>
+        <path id="Rectangle-43" data-name="Rectangle" d="M2,0H20a0,0,0,0,1,0,0V28a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-2" data-name="Group 1457" transform="translate(0 34)">
+        <rect id="Rectangle-44" data-name="Rectangle" width="93" height="28" rx="2" fill="#f5f5f5"/>
+        <path id="Rectangle-45" data-name="Rectangle" d="M2,0H20a0,0,0,0,1,0,0V28a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-3" data-name="Group 1457" transform="translate(0 68)">
+        <rect id="Rectangle-46" data-name="Rectangle" width="93" height="28" rx="2" fill="#f5f5f5"/>
+        <path id="Rectangle-47" data-name="Rectangle" d="M2,0H20a0,0,0,0,1,0,0V28a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-4" data-name="Group 1457" transform="translate(0 102)">
+        <rect id="Rectangle-48" data-name="Rectangle" width="93" height="28" rx="2" fill="#f5f5f5"/>
+        <path id="Rectangle-49" data-name="Rectangle" d="M2,0H20a0,0,0,0,1,0,0V28a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-5" data-name="Group 1457" transform="translate(0 136)">
+        <rect id="Rectangle-50" data-name="Rectangle" width="93" height="28" rx="2" fill="#f5f5f5"/>
+        <path id="Rectangle-51" data-name="Rectangle" d="M2,0H20a0,0,0,0,1,0,0V28a0,0,0,0,1,0,0H2a2,2,0,0,1-2-2V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+      </g>
+    </g>
+    <g id="Rectangle-52" data-name="Rectangle" transform="translate(3200 1099)" fill="#fff" stroke="#5290ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+      <rect width="93" height="17" rx="2" stroke="none"/>
+      <rect x="1" y="1" width="91" height="15" rx="1" fill="none"/>
+    </g>
+    <path id="Rectangle-53" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V39a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(3575 1083)" fill="#f5f5f5"/>
+    <g id="Rectangle-54" data-name="Rectangle" transform="translate(3589 1099)" fill="#fff" stroke="#5290ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+      <rect width="93" height="17" rx="2" stroke="none"/>
+      <rect x="1" y="1" width="91" height="15" rx="1" fill="none"/>
+    </g>
+    <g id="Group_1457-6" data-name="Group 1457" transform="translate(3583 1132)">
+      <rect id="Rectangle-55" data-name="Rectangle" width="105" height="38" rx="2" fill="#f5f5f5"/>
+      <path id="Rectangle-56" data-name="Rectangle" d="M2,0H103a2,2,0,0,1,2,2v8.857a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+    </g>
+    <g id="Page-11" data-name="Page" transform="translate(3573 1482)">
+      <g id="Rectangle-57" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-26" data-name="Label" transform="translate(3573 1442)" clip-path="url(#clip-path)">
+      <g id="Color-34" data-name="Color">
+        <rect id="Mask-40" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-35" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-36" data-name="Color">
+            <rect id="Color_background-12" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-58" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-27" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="29.758" y="11">6.0 Browse</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-10" data-name="This is where all us" transform="translate(3574 1692)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users can browse </tspan><tspan x="0" y="43">hospitals, </tspan><tspan x="0" y="59">medications, </tspan><tspan x="0" y="75">protocols, and </tspan><tspan x="0" y="91">equipment.</tspan></tspan></text>
+    <g id="Repeat_Grid_3" data-name="Repeat Grid 3" transform="translate(3590 1533)" clip-path="url(#clip-path-27)">
+      <g id="Group_1457-7" data-name="Group 1457">
+        <rect id="Rectangle-59" data-name="Rectangle" width="93" height="20" rx="2" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-8" data-name="Group 1457" transform="translate(0 30)">
+        <rect id="Rectangle-60" data-name="Rectangle" width="93" height="20" rx="2" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-9" data-name="Group 1457" transform="translate(0 60)">
+        <rect id="Rectangle-61" data-name="Rectangle" width="93" height="20" rx="2" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-10" data-name="Group 1457" transform="translate(0 90)">
+        <rect id="Rectangle-62" data-name="Rectangle" width="93" height="20" rx="2" fill="#5290ff"/>
+      </g>
+      <g id="Group_1457-11" data-name="Group 1457" transform="translate(0 120)">
+        <rect id="Rectangle-63" data-name="Rectangle" width="93" height="20" rx="2" fill="#5290ff"/>
+      </g>
+    </g>
+    <g id="Page-12" data-name="Page" transform="translate(3962 1081)">
+      <g id="Rectangle-64" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-28" data-name="Label" transform="translate(3962 1041)" clip-path="url(#clip-path)">
+      <g id="Color-37" data-name="Color">
+        <rect id="Mask-41" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-38" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-39" data-name="Color">
+            <rect id="Color_background-13" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-65" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-29" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="19.21" y="11">7.0 Detail Page</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-11" data-name="This is where all us" transform="translate(3963 1291)" fill="#0d3275" font-size="12" font-family="WorkSans-Regular, Work Sans"><tspan x="0" y="11">This is where users </tspan><tspan x="0" y="27">can see more </tspan><tspan x="0" y="43">information about </tspan><tspan x="0" y="59">the hospital, </tspan><tspan x="0" y="75">medication, or </tspan><tspan x="0" y="91">equipment that they </tspan><tspan x="0" y="107">selected.</tspan></text>
+    <path id="Rectangle-66" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(3964 1083)" fill="#f5f5f5"/>
+    <g id="Label-30" data-name="Label" transform="translate(2067 499)" clip-path="url(#clip-path)">
+      <g id="Color-40" data-name="Color">
+        <rect id="Mask-42" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-41" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-42" data-name="Color">
+            <rect id="Color_background-14" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-67" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-31" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="21.568" y="11">2.3 No Access</tspan></text>
+    </g>
+    <g id="Page-13" data-name="Page" transform="translate(2067 539)">
+      <g id="Rectangle-68" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <text id="This_is_where_all_us-12" data-name="This is where all us" transform="translate(2068 749)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users have a log in </tspan><tspan x="0" y="43">but that account no </tspan><tspan x="0" y="59">longer has access to </tspan><tspan x="0" y="75">the Beta.</tspan><tspan x="0" y="91"></tspan></tspan><tspan x="0" y="107">V2 </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="123">User has a log in, </tspan><tspan x="0" y="139">but does not have </tspan><tspan x="0" y="155">access anymore, </tspan><tspan x="0" y="171">must request access </tspan><tspan x="0" y="187">from their admin. </tspan></tspan></text>
+    <g id="Group_1458" data-name="Group 1458" transform="translate(939 -90)">
+      <line id="Line_105" data-name="Line 105" x2="31" y2="31" transform="translate(1175.5 712.5)" fill="none" stroke="#f24747" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_106" data-name="Line 106" x1="31" y2="31" transform="translate(1175.5 712.5)" fill="none" stroke="#f24747" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <g id="Page-14" data-name="Page" transform="translate(357 1076)">
+      <g id="Rectangle-69" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle-70" data-name="Rectangle" transform="translate(373 1153)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="55" height="102" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="54" height="101" rx="1.5" fill="none"/>
+    </g>
+    <g id="Label-32" data-name="Label" transform="translate(357 1036)" clip-path="url(#clip-path-32)">
+      <g id="Color-43" data-name="Color">
+        <rect id="Mask-43" data-name="Mask" width="142.473" height="30" rx="4" fill="#249e6b"/>
+        <g id="Color-44" data-name="Color" clip-path="url(#clip-path-33)">
+          <g id="Color-45" data-name="Color">
+            <rect id="Color_background-15" data-name="Color background" width="142.473" height="30" fill="#249e6b"/>
+            <rect id="Rectangle-71" data-name="Rectangle" width="142.473" height="30" fill="#249e6b"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-33" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="8.212" y="11">0.0 Register from Org</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-13" data-name="This is where all us" transform="translate(357 1286)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users would get an </tspan><tspan x="0" y="43">email from their </tspan><tspan x="0" y="59">organization to </tspan><tspan x="0" y="75">download the app,</tspan></tspan></text>
+    <path id="Rectangle-72" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V39a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(3575 1484)" fill="#f5f5f5"/>
+    <g id="Rectangle-73" data-name="Rectangle" transform="translate(3589 1500)" fill="#fff" stroke="#5290ff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+      <rect width="93" height="17" rx="2" stroke="none"/>
+      <rect x="1" y="1" width="91" height="15" rx="1" fill="none"/>
+    </g>
+    <g id="Label-34" data-name="Label" transform="translate(396 1995)" clip-path="url(#clip-path)">
+      <g id="Color-46" data-name="Color">
+        <rect id="Mask-44" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-47" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-48" data-name="Color">
+            <rect id="Color_background-16" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-74" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-35" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="12.514" y="11">x.0 Force Update</tspan></text>
+    </g>
+    <g id="Page-15" data-name="Page" transform="translate(396 2035)">
+      <g id="Rectangle-75" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_1460" data-name="Group 1460" transform="translate(-732 1406)">
+      <line id="Line_105-2" data-name="Line 105" x2="31" y2="31" transform="translate(1175.5 712.5)" fill="none" stroke="#f24747" stroke-linecap="round" stroke-width="2"/>
+      <line id="Line_106-2" data-name="Line 106" x1="31" y2="31" transform="translate(1175.5 712.5)" fill="none" stroke="#f24747" stroke-linecap="round" stroke-width="2"/>
+    </g>
+    <text id="This_is_where_all_us-14" data-name="This is where all us" transform="translate(397 2245)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Users will have to </tspan><tspan x="0" y="43">update in order to </tspan><tspan x="0" y="59">have broken features </tspan><tspan x="0" y="75">be fixed.</tspan></tspan></text>
+    <g id="Label-36" data-name="Label" transform="translate(601 1995)" clip-path="url(#clip-path)">
+      <g id="Color-49" data-name="Color">
+        <rect id="Mask-45" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-50" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-51" data-name="Color">
+            <rect id="Color_background-17" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-76" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-37" data-name="LABEL" transform="translate(0 8)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="17.056" y="11">x.1 Data Update</tspan></text>
+    </g>
+    <g id="Page-16" data-name="Page" transform="translate(601 2035)">
+      <g id="Rectangle-77" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <text id="This_is_where_all_us-15" data-name="This is where all us" transform="translate(602 2245)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">When a user logs in </tspan><tspan x="0" y="43">and there is a data </tspan><tspan x="0" y="59">update they will be </tspan><tspan x="0" y="75">prompted with </tspan><tspan x="0" y="91">downloading the </tspan><tspan x="0" y="107">data set. We can </tspan><tspan x="0" y="123">show search tips </tspan><tspan x="0" y="139">while it’s loading.</tspan></tspan></text>
+    <g id="Label-38" data-name="Label" transform="translate(2390 1397)" clip-path="url(#clip-path)">
+      <g id="Color-52" data-name="Color">
+        <rect id="Mask-46" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-53" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-54" data-name="Color">
+            <rect id="Color_background-18" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-78" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-39" data-name="LABEL" transform="translate(0 8)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="6.67" y="11">2.4 Download Data</tspan></text>
+    </g>
+    <g id="Page-17" data-name="Page" transform="translate(2390 1437)">
+      <g id="Rectangle-79" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <text id="This_is_where_all_us-16" data-name="This is where all us" transform="translate(2391 1647)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">When a user logs in </tspan><tspan x="0" y="43">for the first time or </tspan><tspan x="0" y="59">loads a new org, </tspan><tspan x="0" y="75">they will be </tspan><tspan x="0" y="91">prompted with </tspan><tspan x="0" y="107">downloading the </tspan><tspan x="0" y="123">data set. We can </tspan><tspan x="0" y="139">show search tips </tspan><tspan x="0" y="155">while it’s loading.</tspan></tspan></text>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(2431 1512)" fill="none" stroke="#386fd1" stroke-width="2">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="21" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(643 2110)" fill="none" stroke="#386fd1" stroke-width="2">
+      <circle cx="22" cy="22" r="22" stroke="none"/>
+      <circle cx="22" cy="22" r="21" fill="none"/>
+    </g>
+    <path id="Path_549" data-name="Path 549" d="M3642,2784s70.949-.3,91.442,0,18.728,7.389,18.428,27.659-.549,300.118,0,317.925,6.5,22.957,29.146,22.373,93.456,0,93.456,0" transform="translate(-317.5 -1570)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Point-3" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3555 1578)" fill="#0d3275"/>
+    <g id="Label_Secondary-4" data-name="Label / Secondary" transform="translate(154.953 2128)">
+      <g id="Rectangle-80" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="163.047" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="161.047" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-40" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="16.807" y="11">New Software Update</tspan></text>
+    </g>
+    <g id="Group_1538" data-name="Group 1538" transform="translate(-1266 1862)">
+      <line id="Line-5" data-name="Line" x2="60.77" transform="translate(1586.73 281)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-4" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(1644 277)" fill="#0d3275"/>
+      <circle id="Circle-3" data-name="Circle" cx="4" cy="4" r="4" transform="translate(1580 277)" fill="#0d3275"/>
+    </g>
+    <g id="Label_Secondary-5" data-name="Label / Secondary" transform="translate(1409 1091)">
+      <g id="Rectangle-81" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-41" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="13.018" y="11">Forgot Password</tspan></text>
+    </g>
+    <path id="Dotted_Line-4" data-name="Dotted Line" d="M0,533.126V12.953C.726,4.665,1.078-.189,9.107,0H23.43" transform="translate(2026 639.004)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="2 6"/>
+    <g id="Arrow-6" data-name="Arrow" transform="translate(2049 635)" clip-path="url(#clip-path-5)">
+      <path id="Arrow-7" data-name="Arrow" d="M0,0,8,4,0,8Z" fill="#0d3275"/>
+    </g>
+    <g id="Label_Secondary-6" data-name="Label / Secondary" transform="translate(1963 1091)">
+      <g id="Rectangle-82" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-42" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="32.176" y="11">No Access</tspan></text>
+    </g>
+    <g id="Group_1537" data-name="Group 1537" transform="translate(877 -90)">
+      <g id="Page-18" data-name="Page" transform="translate(357 1166)">
+        <g id="Rectangle-83" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+          <rect width="125" height="200" rx="4" stroke="none"/>
+          <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_1674" data-name="Group 1674">
+        <g id="Rectangle-84" data-name="Rectangle" transform="translate(373 1247)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+          <rect width="93" height="15" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+        </g>
+        <rect id="Rectangle-85" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(393 1227)" fill="#386fd1"/>
+        <rect id="Rectangle-86" data-name="Rectangle" width="50" height="16" rx="4" transform="translate(395 1303)" fill="#5290ff"/>
+        <g id="Rectangle-87" data-name="Rectangle" transform="translate(373 1268)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+          <rect width="93" height="15" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Label-43" data-name="Label" transform="translate(1234 1036)" clip-path="url(#clip-path)">
+      <g id="Color-55" data-name="Color">
+        <rect id="Mask-47" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-56" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-57" data-name="Color">
+            <rect id="Color_background-19" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-88" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-44" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="31.72" y="11">2.0 Sign In</tspan></text>
+    </g>
+    <path id="Dotted_Line-5" data-name="Dotted Line" d="M0,0V356.252c.726,5.677,1.078,9,9.107,8.87H23.43" transform="translate(2349 1179.874)" fill="none" stroke="#0d3275" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-dasharray="2 6"/>
+    <path id="Arrow-8" data-name="Arrow" d="M0,8,8,4,0,0Z" transform="translate(2372 1541)" fill="#0d3275"/>
+    <circle id="Circle-4" data-name="Circle" cx="4" cy="4" r="4" transform="translate(1354 1172)" fill="#0d3275"/>
+    <g id="Label_Secondary-7" data-name="Label / Secondary" transform="translate(155 1161)">
+      <g id="Rectangle-89" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-45" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="18.082" y="11">Email from Org</tspan></text>
+    </g>
+    <g id="Group_1539" data-name="Group 1539" transform="translate(-1305 895)">
+      <line id="Line-6" data-name="Line" x2="60.77" transform="translate(1586.73 281)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-5" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(1644 277)" fill="#0d3275"/>
+      <circle id="Circle-5" data-name="Circle" cx="4" cy="4" r="4" transform="translate(1580 277)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1541" data-name="Group 1541" transform="translate(196)">
+      <path id="Path_528-2" data-name="Path 528" d="M2778,2209c11.327,0,15.418.147,23.922,0s14.354,4.233,14.366,11.207,0,525.133,0,525.133" transform="translate(-783 -1570)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <circle id="Mask-48" data-name="Mask" cx="4" cy="4" r="4" transform="translate(1991 635)" fill="#0d3275"/>
+    </g>
+    <g id="Label_Secondary-8" data-name="Label / Secondary" transform="translate(2286 1215)">
+      <g id="Rectangle-90" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-46" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="30.778" y="11">New Data?</tspan></text>
+    </g>
+    <g id="Group_1542" data-name="Group 1542" transform="translate(2510 1009)">
+      <path id="Path_528-3" data-name="Path 528" d="M2778,2578.7c11.327,0,15.418-.1,23.922,0s14.354-2.918,14.366-7.725,0-361.975,0-361.975" transform="translate(-2774 -2042.355)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <circle id="Mask-49" data-name="Mask" cx="4" cy="4" r="4" transform="translate(0 532.34)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1545" data-name="Group 1545" transform="translate(-1064 1862)">
+      <line id="Line-7" data-name="Line" x2="60.77" transform="translate(1586.73 281)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-6" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(1644 277)" fill="#0d3275"/>
+      <circle id="Circle-6" data-name="Circle" cx="4" cy="4" r="4" transform="translate(1580 277)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1546" data-name="Group 1546" transform="translate(2868 1009)">
+      <path id="Path_528-4" data-name="Path 528" d="M2778,2578.7c11.327,0,15.418-.1,23.922,0s14.354-2.918,14.366-7.725,0-361.975,0-361.975" transform="translate(-2774 -2042.355)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <circle id="Mask-50" data-name="Mask" cx="4" cy="4" r="4" transform="translate(0 532.34)" fill="#0d3275"/>
+    </g>
+    <g id="Label_Secondary-9" data-name="Label / Secondary" transform="translate(2943 1161)">
+      <rect id="Label_Secondary_background" data-name="Label / Secondary background" width="175" height="28.125" transform="translate(0 -0.063)" fill="rgba(0,0,0,0)"/>
+      <g id="Rectangle-91" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="175" height="30" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="173" height="28" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-47" data-name="LABEL" transform="translate(0 6.938)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="37.178" y="11">No New Features</tspan></text>
+    </g>
+    <g id="Group_1549" data-name="Group 1549" transform="translate(308 -8)">
+      <g id="Label-48" data-name="Label" transform="translate(3655 399)" clip-path="url(#clip-path)">
+        <g id="Color-58" data-name="Color">
+          <rect id="Mask-51" data-name="Mask" width="125" height="30" rx="4" fill="#249e6b"/>
+          <g id="Color-59" data-name="Color" clip-path="url(#clip-path-44)">
+            <g id="Color-60" data-name="Color">
+              <rect id="Color_background-20" data-name="Color background" width="125" height="30" fill="#249e6b"/>
+              <rect id="Rectangle-92" data-name="Rectangle" width="125" height="30" fill="#249e6b"/>
+            </g>
+          </g>
+        </g>
+        <text id="LABEL-49" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="17.404" y="11">9.0 My Settings</tspan></text>
+      </g>
+      <text id="This_is_where_all_us-17" data-name="This is where all us" transform="translate(3656 649)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V2</tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">This is where users </tspan><tspan x="0" y="43">could see what </tspan><tspan x="0" y="59">organizations they </tspan><tspan x="0" y="75">are part of, change </tspan><tspan x="0" y="91">their password, </tspan><tspan x="0" y="107">change their login </tspan><tspan x="0" y="123">method, and adjust </tspan><tspan x="0" y="139">notification </tspan><tspan x="0" y="155">preferences.</tspan></tspan></text>
+      <g id="Group_1548" data-name="Group 1548">
+        <g id="Page-19" data-name="Page" transform="translate(3655 439)">
+          <g id="Rectangle-93" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+            <rect width="125" height="200" rx="4" stroke="none"/>
+            <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+          </g>
+        </g>
+        <g id="Rectangle-94" data-name="Rectangle" transform="translate(3671 514)" fill="#d6d6d6" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+          <rect width="93" height="15" rx="2" stroke="none"/>
+          <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+        </g>
+        <rect id="Rectangle-95" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(3691 489)" fill="#386fd1"/>
+        <g id="Group_1547" data-name="Group 1547">
+          <path id="Rectangle-96" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(3657 441)" fill="#f5f5f5"/>
+          <text id="_2" data-name="&lt;" transform="translate(3667 456)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+        </g>
+      </g>
+      <text id="This_is_where_all_us-18" data-name="This is where all us" transform="translate(3656 822)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">• Notifications</tspan><tspan x="0" y="27">• Change Org</tspan></text>
+    </g>
+    <text id="Legend-2" data-name="Legend" transform="translate(193 1909)" fill="#0d3275" font-size="20" font-family="Barlow-Medium, Barlow Medium" font-weight="500"><tspan x="0" y="0">Software Update</tspan></text>
+    <rect id="Base-3" data-name="Base" width="156" height="61" rx="4" transform="translate(155 925)" fill="#fff"/>
+    <text id="Legend-3" data-name="Legend" transform="translate(193 963)" fill="#0d3275" font-size="20" font-family="Barlow-Medium, Barlow Medium" font-weight="500"><tspan x="0" y="0">Installing</tspan></text>
+    <rect id="Base-4" data-name="Base" width="156" height="61" rx="4" transform="translate(690 925)" fill="#fff"/>
+    <text id="Legend-4" data-name="Legend" transform="translate(716 963)" fill="#0d3275" font-size="20" font-family="Barlow-Medium, Barlow Medium" font-weight="500"><tspan x="0" y="0">Launch App</tspan></text>
+    <g id="Group_1556" data-name="Group 1556" transform="translate(1917 133)">
+      <path id="Rectangle-97" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_3" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <g id="Group_1557" data-name="Group 1557" transform="translate(2099 133)">
+      <path id="Rectangle-98" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_4" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <g id="Group_1558" data-name="Group 1558" transform="translate(2283 133)">
+      <path id="Rectangle-99" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_5" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <g id="Group_1559" data-name="Group 1559" transform="translate(-171 -8)">
+      <path id="Mask-52" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4197 381) rotate(90)" fill="#0d3275"/>
+      <line id="Line_157" data-name="Line 157" y2="67" transform="translate(4193 314)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    </g>
+    <g id="Group_1560" data-name="Group 1560" transform="translate(-371 -8)">
+      <path id="Mask-53" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(4197 381) rotate(90)" fill="#0d3275"/>
+      <line id="Line_157-2" data-name="Line 157" y2="67" transform="translate(4193 314)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    </g>
+    <g id="Label_Secondary-10" data-name="Label / Secondary" transform="translate(3573 390)">
+      <g id="Rectangle-100" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-50" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="30.796" y="11">Dashboard</tspan></text>
+    </g>
+    <path id="Mask-54" data-name="Mask" d="M0,0,8,4,0,8Z" transform="translate(3639 373) rotate(90)" fill="#0d3275"/>
+    <g id="Label_Secondary-11" data-name="Label / Secondary" transform="translate(3758 390)">
+      <g id="Rectangle-101" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-51" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="40.492" y="11">Browse</tspan></text>
+    </g>
+    <line id="Line-8" data-name="Line" x2="110.77" transform="translate(3310.73 1106)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <g id="Label_Secondary-12" data-name="Label / Secondary" transform="translate(3359 1091)">
+      <g id="Rectangle-102" data-name="Rectangle" transform="translate(0 -1)" fill="#fff" stroke="#004f71" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="32" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="30" rx="3" fill="none"/>
+      </g>
+      <text id="LABEL-52" data-name="LABEL" transform="translate(0 8)" fill="#004f71" font-size="12" font-family="WorkSans-SemiBold, Work Sans SemiBold" font-weight="600"><tspan x="46.276" y="11">Menu</tspan></text>
+    </g>
+    <g id="Group_1561" data-name="Group 1561">
+      <line id="Line-9" data-name="Line" x2="231" transform="translate(3324.5 1176)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-7" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3555 1172)" fill="#0d3275"/>
+      <path id="Point-8" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3319 1172)" fill="#0d3275"/>
+    </g>
+    <path id="Point-9" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3319 1210)" fill="#0d3275"/>
+    <g id="Group_1562" data-name="Group 1562" transform="translate(389)">
+      <line id="Line-10" data-name="Line" x2="231" transform="translate(3324.5 1176)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-10" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3555 1172)" fill="#0d3275"/>
+      <path id="Point-11" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3319 1172)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1563" data-name="Group 1563">
+      <path id="Point-12" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3944 1210)" fill="#0d3275"/>
+      <path id="Path_551" data-name="Path 551" d="M3874.473,2784s-70.949-.3-91.442,0-18.728,7.389-18.428,27.659.549,300.118,0,317.925-6.5,22.957-29.146,22.373-93.456,0-93.456,0" transform="translate(73.5 -1570)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-13" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3708 1578)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1659" data-name="Group 1659" transform="translate(612 813)">
+      <g id="Group_1153" data-name="Group 1153" transform="translate(106.347 323)">
+        <g id="Mask_Group_5" data-name="Mask Group 5" transform="translate(23.465)" clip-path="url(#clip-path-45)">
+          <rect id="Rectangle_317" data-name="Rectangle 317" width="90.357" height="97.506" transform="translate(2.694 -74.962) rotate(30)" fill="#386fd1"/>
+        </g>
+        <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(39.865)" clip-path="url(#clip-path-46)">
+          <rect id="Rectangle_320" data-name="Rectangle 320" width="90.357" height="97.506" transform="translate(-13.706 -74.961) rotate(30)" fill="#386fd1"/>
+        </g>
+        <g id="Mask_Group_7" data-name="Mask Group 7" transform="translate(54.949)" clip-path="url(#clip-path-47)">
+          <rect id="Rectangle_319" data-name="Rectangle 319" width="90.357" height="97.506" transform="translate(-28.791 -74.961) rotate(30)" fill="#386fd1"/>
+        </g>
+        <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(0)" clip-path="url(#clip-path-48)">
+          <rect id="Rectangle_318" data-name="Rectangle 318" width="90.357" height="97.506" transform="translate(26.159 -74.961) rotate(30)" fill="#386fd1"/>
+          <rect id="Rectangle_321" data-name="Rectangle 321" width="90.357" height="97.506" transform="translate(26.159 -74.961) rotate(30)" fill="#386fd1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_1661" data-name="Group 1661" transform="translate(-42)">
+      <rect id="Rectangle-103" data-name="Rectangle" width="30" height="30" rx="4" transform="translate(415 1095)" fill="#5290ff"/>
+      <g id="Group_1660" data-name="Group 1660" transform="translate(312.653 780)">
+        <g id="Group_1153-2" data-name="Group 1153" transform="translate(106.347 323)">
+          <g id="Mask_Group_8-2" data-name="Mask Group 8" transform="translate(0)" clip-path="url(#clip-path-49)">
+            <rect id="Rectangle_318-2" data-name="Rectangle 318" width="90.357" height="97.506" transform="translate(26.159 -74.961) rotate(30)" fill="#fff"/>
+            <rect id="Rectangle_321-2" data-name="Rectangle 321" width="90.357" height="97.506" transform="translate(26.159 -74.961) rotate(30)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle-104" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(411 1095)" fill="#777791"/>
+    <rect id="Rectangle-105" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(411 1107)" fill="#d6d6d6"/>
+    <rect id="Rectangle-106" data-name="Rectangle" width="20" height="10" rx="2" transform="translate(411 1118)" fill="#5290ff"/>
+    <g id="Rectangle-107" data-name="Rectangle" transform="translate(433 1153)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="47" height="102" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="46" height="101" rx="1.5" fill="none"/>
+    </g>
+    <g id="Group_1662" data-name="Group 1662" transform="translate(0 5)">
+      <line id="Line-11" data-name="Line" x2="182.77" transform="translate(483.73 1171)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-14" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(662 1167)" fill="#0d3275"/>
+      <circle id="Circle-7" data-name="Circle" cx="4" cy="4" r="4" transform="translate(477 1167)" fill="#0d3275"/>
+    </g>
+    <rect id="Rectangle-108" data-name="Rectangle" width="26" height="10" rx="2" transform="translate(428 1136)" fill="#d6d6d6"/>
+    <rect id="Rectangle-109" data-name="Rectangle" width="11" height="10" rx="2" transform="translate(463 1136)" fill="#d6d6d6"/>
+    <rect id="Rectangle-110" data-name="Rectangle" width="47" height="10" rx="2" transform="translate(373 1136)" fill="#d6d6d6"/>
+    <rect id="Rectangle_322" data-name="Rectangle 322" width="36" height="36" transform="translate(3975 1116)" fill="#d6d6d6"/>
+    <g id="Rectangle-111" data-name="Rectangle" transform="translate(3975 1162)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="99" height="28" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="98" height="27" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle-112" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(4021 1116)" fill="#777791"/>
+    <rect id="Rectangle-113" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(4021 1128)" fill="#d6d6d6"/>
+    <rect id="Rectangle-114" data-name="Rectangle" width="20" height="10" rx="2" transform="translate(4048 1174)" fill="#5290ff"/>
+    <g id="Rectangle-115" data-name="Rectangle" transform="translate(3975 1226)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="1.5" fill="none"/>
+    </g>
+    <rect id="Rectangle-116" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(3975 1195)" fill="#d6d6d6"/>
+    <rect id="Rectangle-117" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(3975 1208)" fill="#d6d6d6"/>
+    <g id="Rectangle-118" data-name="Rectangle" transform="translate(4011 1226)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle-119" data-name="Rectangle" transform="translate(4046 1226)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="28" height="28" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="27" height="27" rx="1.5" fill="none"/>
+    </g>
+    <g id="Group_1663" data-name="Group 1663" transform="translate(3583 1176)">
+      <rect id="Rectangle-120" data-name="Rectangle" width="105" height="38" rx="2" fill="#f5f5f5"/>
+      <path id="Rectangle-121" data-name="Rectangle" d="M2,0H103a2,2,0,0,1,2,2v8.857a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+    </g>
+    <g id="Group_1664" data-name="Group 1664" transform="translate(3583 1220)">
+      <rect id="Rectangle-122" data-name="Rectangle" width="105" height="38" rx="2" fill="#f5f5f5"/>
+      <path id="Rectangle-123" data-name="Rectangle" d="M2,0H103a2,2,0,0,1,2,2v8.857a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+    </g>
+    <g id="Group_1665" data-name="Group 1665" transform="translate(3583 1264)">
+      <rect id="Rectangle-124" data-name="Rectangle" width="105" height="14" rx="2" fill="#f5f5f5"/>
+      <path id="Rectangle-125" data-name="Rectangle" d="M2,0H103a2,2,0,0,1,2,2v8.857a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" fill="#5290ff"/>
+    </g>
+    <rect id="Rectangle-126" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3595 1104)" fill="#777791"/>
+    <g id="Page-20" data-name="Page" transform="translate(3575 1927)">
+      <g id="Rectangle-127" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-53" data-name="Label" transform="translate(3575 1887)" clip-path="url(#clip-path)">
+      <g id="Color-61" data-name="Color">
+        <rect id="Mask-55" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-62" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-63" data-name="Color">
+            <rect id="Color_background-21" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-128" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-54" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="13.894" y="11">8.0 Notifications</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-19" data-name="This is where all us" transform="translate(3576 2137)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">Notifications would </tspan><tspan x="0" y="43">include any updates </tspan><tspan x="0" y="59">to data that the user </tspan><tspan x="0" y="75">has to approve. They </tspan><tspan x="0" y="91">can ask questions by </tspan><tspan x="0" y="107">emailing the source </tspan><tspan x="0" y="123">of the update.</tspan></tspan></text>
+    <g id="Group_1668" data-name="Group 1668" transform="translate(1066 1403)">
+      <path id="Rectangle-129" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_6" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <g id="Repeat_Grid_6" data-name="Repeat Grid 6" transform="translate(3583 1958)" clip-path="url(#clip-path-52)">
+      <g id="Group_1669" data-name="Group 1669" transform="translate(-3678 -1921)">
+        <rect id="Rectangle_323" data-name="Rectangle 323" width="5" height="33" transform="translate(3678 1921)" fill="#386fd1"/>
+        <line id="Line_158" data-name="Line 158" x2="106" transform="translate(3678.5 1961.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+        <rect id="Rectangle-130" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3691 1921)" fill="#777791"/>
+        <rect id="Rectangle-131" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(3691 1933)" fill="#d6d6d6"/>
+        <rect id="Rectangle-132" data-name="Rectangle" width="37" height="7" rx="2" transform="translate(3748 1947)" fill="#5290ff"/>
+      </g>
+      <g id="Group_1669-2" data-name="Group 1669" transform="translate(-3678 -1873)">
+        <rect id="Rectangle_323-2" data-name="Rectangle 323" width="5" height="33" transform="translate(3678 1921)" fill="#386fd1"/>
+        <line id="Line_158-2" data-name="Line 158" x2="106" transform="translate(3678.5 1961.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+        <rect id="Rectangle-133" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3691 1921)" fill="#777791"/>
+        <rect id="Rectangle-134" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(3691 1933)" fill="#d6d6d6"/>
+        <rect id="Rectangle-135" data-name="Rectangle" width="37" height="7" rx="2" transform="translate(3748 1947)" fill="#5290ff"/>
+      </g>
+      <g id="Group_1669-3" data-name="Group 1669" transform="translate(-3678 -1825)">
+        <rect id="Rectangle_323-3" data-name="Rectangle 323" width="5" height="33" transform="translate(3678 1921)" fill="#386fd1"/>
+        <line id="Line_158-3" data-name="Line 158" x2="106" transform="translate(3678.5 1961.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+        <rect id="Rectangle-136" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3691 1921)" fill="#777791"/>
+        <rect id="Rectangle-137" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(3691 1933)" fill="#d6d6d6"/>
+        <rect id="Rectangle-138" data-name="Rectangle" width="37" height="7" rx="2" transform="translate(3748 1947)" fill="#5290ff"/>
+      </g>
+      <g id="Group_1669-4" data-name="Group 1669" transform="translate(-3678 -1777)">
+        <rect id="Rectangle_323-4" data-name="Rectangle 323" width="5" height="33" transform="translate(3678 1921)" fill="#386fd1"/>
+        <line id="Line_158-4" data-name="Line 158" x2="106" transform="translate(3678.5 1961.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+        <rect id="Rectangle-139" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3691 1921)" fill="#777791"/>
+        <rect id="Rectangle-140" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(3691 1933)" fill="#d6d6d6"/>
+        <rect id="Rectangle-141" data-name="Rectangle" width="37" height="7" rx="2" transform="translate(3748 1947)" fill="#5290ff"/>
+      </g>
+    </g>
+    <path id="Path_552" data-name="Path 552" d="M3642,2784.145s20.949-.626,41.442,0,18.728,15.516,18.428,58.079-.549,630.182,0,667.573,6.5,48.2,29.146,46.978,143.456,0,143.456,0" transform="translate(-317.5 -1529.867)" fill="none" stroke="#0d3275" stroke-width="2"/>
+    <path id="Point-15" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3555 2023)" fill="#0d3275"/>
+    <g id="Page-21" data-name="Page" transform="translate(3801 1927)">
+      <g id="Rectangle-142" data-name="Rectangle" fill="#fff" stroke="#386fd1" stroke-miterlimit="10" stroke-width="2">
+        <rect width="125" height="200" rx="4" stroke="none"/>
+        <rect x="1" y="1" width="123" height="198" rx="3" fill="none"/>
+      </g>
+    </g>
+    <g id="Label-55" data-name="Label" transform="translate(3801 1887)" clip-path="url(#clip-path)">
+      <g id="Color-64" data-name="Color">
+        <rect id="Mask-56" data-name="Mask" width="125" height="30" rx="4" fill="#386fd1"/>
+        <g id="Color-65" data-name="Color" clip-path="url(#clip-path-2)">
+          <g id="Color-66" data-name="Color">
+            <rect id="Color_background-22" data-name="Color background" width="125" height="30" fill="#386fd1"/>
+            <rect id="Rectangle-143" data-name="Rectangle" width="125" height="30" fill="#386fd1"/>
+          </g>
+        </g>
+      </g>
+      <text id="LABEL-56" data-name="LABEL" transform="translate(0 9)" fill="#fff" font-size="12" font-family="WorkSans-Medium, Work Sans Medium" font-weight="500"><tspan x="29.23" y="11">8.1 Approve</tspan></text>
+    </g>
+    <text id="This_is_where_all_us-20" data-name="This is where all us" transform="translate(3802 2137)" fill="#0d3275" font-size="12" font-family="WorkSans-Bold, Work Sans" font-weight="700"><tspan x="0" y="11">V1</tspan><tspan y="11" font-family="WorkSans-Regular, Work Sans" font-weight="400"> </tspan><tspan font-family="WorkSans-Regular, Work Sans" font-weight="400"><tspan x="0" y="27">This is where users </tspan><tspan x="0" y="43">could see the </tspan><tspan x="0" y="59">update in more </tspan><tspan x="0" y="75">detail, ask a </tspan><tspan x="0" y="91">question about the </tspan><tspan x="0" y="107">update, and finally </tspan><tspan x="0" y="123">approve that they </tspan><tspan x="0" y="139">received that </tspan><tspan x="0" y="155">change.</tspan></tspan></text>
+    <g id="Group_1670" data-name="Group 1670" transform="translate(1292 1403)">
+      <path id="Rectangle-144" data-name="Rectangle" d="M2,0H119a2,2,0,0,1,2,2V23a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(2511 526)" fill="#f5f5f5"/>
+      <text id="_7" data-name="&lt;" transform="translate(2521 541)" fill="#5290ff" font-size="11" font-family="ApercuPro-Bold, Apercu Pro" font-weight="700" letter-spacing="-0.028em"><tspan x="0" y="0">&lt;</tspan></text>
+    </g>
+    <g id="Group_1669-5" data-name="Group 1669" transform="translate(131 37)">
+      <rect id="Rectangle_323-5" data-name="Rectangle 323" width="5" height="33" transform="translate(3678 1921)" fill="#386fd1"/>
+      <line id="Line_158-5" data-name="Line 158" x2="106" transform="translate(3678.5 1961.5)" fill="none" stroke="#d6d6d6" stroke-width="1"/>
+      <rect id="Rectangle-145" data-name="Rectangle" width="40" height="7" rx="2" transform="translate(3691 1921)" fill="#777791"/>
+      <rect id="Rectangle-146" data-name="Rectangle" width="58" height="7" rx="2" transform="translate(3691 1933)" fill="#d6d6d6"/>
+      <rect id="Rectangle-147" data-name="Rectangle" width="37" height="7" rx="2" transform="translate(3748 1947)" fill="#5290ff"/>
+    </g>
+    <path id="Point-16" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3319 1250)" fill="#0d3275"/>
+    <g id="Group_1671" data-name="Group 1671" transform="translate(389 851)">
+      <line id="Line-12" data-name="Line" x2="76" transform="translate(3324.5 1176)" fill="none" stroke="#0d3275" stroke-width="2"/>
+      <path id="Point-17" data-name="Point" d="M0,0,8,4,0,8Z" transform="translate(3394 1172)" fill="#0d3275"/>
+      <path id="Point-18" data-name="Point" d="M8,0,0,4,8,8Z" transform="translate(3319 1172)" fill="#0d3275"/>
+    </g>
+    <g id="Group_1672" data-name="Group 1672">
+      <rect id="Rectangle-148" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 702)" fill="#d6d6d6"/>
+      <rect id="Rectangle-149" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 715)" fill="#d6d6d6"/>
+      <rect id="Rectangle-150" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 728)" fill="#d6d6d6"/>
+      <rect id="Rectangle-151" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 741)" fill="#d6d6d6"/>
+      <rect id="Rectangle-152" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 754)" fill="#d6d6d6"/>
+      <rect id="Rectangle-153" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 767)" fill="#d6d6d6"/>
+    </g>
+    <g id="Group_1673" data-name="Group 1673" transform="translate(183)">
+      <rect id="Rectangle-154" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 702)" fill="#d6d6d6"/>
+      <rect id="Rectangle-155" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 715)" fill="#d6d6d6"/>
+      <rect id="Rectangle-156" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 728)" fill="#d6d6d6"/>
+      <rect id="Rectangle-157" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 741)" fill="#d6d6d6"/>
+      <rect id="Rectangle-158" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 754)" fill="#d6d6d6"/>
+      <rect id="Rectangle-159" data-name="Rectangle" width="99" height="8" rx="2" transform="translate(4622 767)" fill="#d6d6d6"/>
+    </g>
+    <g id="Group_1675" data-name="Group 1675" transform="translate(3832 -742)">
+      <g id="Rectangle-160" data-name="Rectangle" transform="translate(373 1247)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+        <rect width="93" height="15" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+      </g>
+      <rect id="Rectangle-161" data-name="Rectangle" width="53" height="10" rx="2" transform="translate(393 1227)" fill="#386fd1"/>
+      <rect id="Rectangle-162" data-name="Rectangle" width="50" height="16" rx="4" transform="translate(395 1303)" fill="#5290ff"/>
+      <g id="Rectangle-163" data-name="Rectangle" transform="translate(373 1268)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+        <rect width="93" height="15" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="92" height="14" rx="1.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Rectangle-164" data-name="Rectangle" transform="translate(4439 702)" fill="#f5f5f5" stroke="#d6d6d6" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1">
+      <rect width="99" height="96" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="98" height="95" rx="1.5" fill="none"/>
+    </g>
+  </g>
+</svg>

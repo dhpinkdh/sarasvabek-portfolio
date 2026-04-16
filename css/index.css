@@ -1,0 +1,847 @@
+/* Variables & Theming */
+:root {
+  /* Dark Theme (Default) */
+  --bg-color: #0B0E14;
+  --bg-alternate: #11151C;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --glass-bg: rgba(15, 20, 28, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --accent-color: #3B82F6;
+  --accent-gradient: linear-gradient(135deg, #3B82F6, #8B5CF6);
+  --btn-text: #FFFFFF;
+}
+
+[data-theme="light"] {
+  /* Light Theme */
+  --bg-color: #FFFFFF;
+  --bg-alternate: #F8FAFC;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --border-color: rgba(0, 0, 0, 0.1);
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --accent-color: #2563EB;
+  --accent-gradient: linear-gradient(135deg, #2563EB, #7C3AED);
+  --btn-text: #FFFFFF;
+}
+
+/* Reset & Basics */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .logo {
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Typography */
+.gradient-text {
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.max-w-lg {
+  max-width: 800px;
+}
+
+.text-center { text-align: center; }
+.mb-5 { margin-bottom: 3rem; }
+
+.section-spacing {
+  padding: 8rem 0;
+}
+
+.alternate-bg {
+  background-color: var(--bg-alternate);
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 1.25rem 0;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: var(--glass-bg);
+  border-bottom: 1px solid var(--glass-border);
+  transition: all 0.3s ease;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: var(--text-primary);
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.icon-button:hover {
+  background: var(--glass-border);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.8rem;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--text-primary);
+  color: var(--bg-color);
+  border: none;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] .btn-primary:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+  border-color: var(--text-primary);
+  background: var(--glass-border);
+}
+
+.social-icon {
+  padding: 0.8rem;
+}
+
+.btn-large {
+  padding: 1.2rem 2.5rem;
+  font-size: 1.1rem;
+}
+
+.glow-effect {
+  position: relative;
+  background: var(--accent-gradient);
+  color: var(--btn-text);
+  border: none;
+}
+
+.glow-effect::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: var(--accent-gradient);
+  border-radius: inherit;
+  z-index: -1;
+  filter: blur(15px);
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.glow-effect:hover::before {
+  opacity: 0.9;
+}
+
+/* Glassmorphism Classes */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
+}
+
+.glass-panel {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+}
+
+[data-theme="light"] .glass-panel {
+  background: rgba(0,0,0,0.02);
+}
+
+/* Sections Core */
+.section-header {
+  margin-bottom: 4rem;
+  max-width: 600px;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+}
+
+.hero-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent-color);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.hero-title {
+  font-size: clamp(3rem, 6vw, 5.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.4rem);
+  color: var(--text-secondary);
+  max-width: 650px;
+  margin-bottom: 2.5rem;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Work Grid - Case Studies */
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.work-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.work-card:hover {
+  transform: translateY(-10px);
+}
+
+.work-img-wrapper {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--bg-alternate);
+}
+
+.work-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.work-card:hover .work-img {
+  transform: scale(1.05);
+}
+
+.work-meta {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  padding: 1.5rem;
+  border-radius: 16px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.work-card:hover .work-meta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--accent-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.work-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.work-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+/* Art Section */
+.subsection-title {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.subsection-desc {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+}
+
+.art-canvas {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.canvas-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-secondary);
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.pulse-dot {
+  width: 12px; height: 12px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7); }
+  70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+/* Games Section */
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.game-card {
+  padding: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  min-height: 250px;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--border-color);
+}
+
+.game-num {
+  font-size: 2rem;
+  opacity: 0.1;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.game-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.game-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.game-link {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.game-link .arrow {
+  transition: transform 0.2s ease;
+}
+
+.game-card:hover .game-link .arrow {
+  transform: translateX(5px);
+}
+
+/* Footer & Contact */
+.contact-desc {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-bottom: 3rem;
+}
+
+.footer {
+  padding: 3rem 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: var(--text-primary);
+}
+
+/* Animation Utilities */
+.ig-post:hover .ig-img {
+  transform: scale(1.1) !important;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ========================================================================= */
+/* Case Study Template Styles */
+/* ========================================================================= */
+.case-study-page .navbar {
+  position: fixed;
+}
+
+.cs-hero {
+  position: relative;
+  height: 80vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cs-hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 15, 0.5) 0%, rgba(10, 10, 15, 0.95) 100%);
+}
+
+.cs-hero-content {
+  position: relative;
+  z-index: 10;
+}
+
+.cs-logo {
+  max-width: 250px;
+  margin-bottom: 2rem;
+}
+
+.cs-title {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  font-family: 'Outfit', sans-serif;
+}
+
+.cs-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.meta-item {
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.meta-item h5 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.cs-intro .lead-text {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+}
+
+.cs-text-wrap {
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.inline-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.cs-img-rounded {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.cs-img-rounded:hover {
+  transform: translateY(-5px);
+}
+
+.cs-img-full {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+/* --- Showcase Module (Carousel vs Grid) --- */
+.cs-showcase-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.view-toggle {
+  display: flex;
+  background: rgba(255,255,255,0.05);
+  border-radius: 100px;
+  padding: 0.3rem;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.toggle-btn {
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+  background: var(--primary-color);
+  color: white;
+  box-shadow: 0 4px 15px rgba(230, 57, 70, 0.4);
+}
+
+/* Carousel Mode */
+.showcase-carousel-mode {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  padding: 2rem 0;
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+}
+
+.showcase-carousel-mode .showcase-track {
+  display: flex;
+  gap: 2rem;
+  animation: slide 30s linear infinite;
+  width: max-content;
+}
+
+.showcase-carousel-mode .showcase-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); } 
+  /* Note: In production you would duplicate the images to make it truly infinite. 
+     For this demo, we shift halfway so it scrolls broadly. */
+}
+
+/* Grid Mode */
+.showcase-grid-mode .showcase-track {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  animation: none;
+  width: 100%;
+}
+
+.showcase-item {
+  width: 280px;
+  border-radius: 24px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+  object-fit: contain;
+  background: #FFF; /* specific for clean mockup isolation */
+  transition: transform 0.3s ease;
+}
+
+.showcase-carousel-mode .showcase-item {
+  flex-shrink: 0;
+}
+
+.showcase-grid-mode .showcase-item {
+  width: 100%;
+}
+
+.showcase-grid-mode .showcase-item:hover {
+  transform: translateY(-10px);
+}
+
+/* Pull Quote */
+.pull-quote {
+  font-family: 'Outfit', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 2rem auto;
+  color: #FFF;
+}
+
+.quote-author {
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* In a real app we'd add a hamburger menu */
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .work-meta {
+    opacity: 1;
+    transform: translateY(0);
+    position: relative;
+    bottom: auto; left: auto; right: auto;
+    border-radius: 0 0 24px 24px;
+    border: none;
+    border-top: 1px solid var(--border-color);
+  }
+  
+  .work-img-wrapper {
+    border-radius: 24px 24px 0 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+
+/* =========================================================================
+   Elaborate SVG Face Animations (Origami Fold & Morph States)
+   ========================================================================= */
+
+#face-svg {
+  overflow: visible;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Animate standard curves like mouth uniformly */
+.mouth-path {
+  transition: d 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Master group wrapper transitions */
+.face-group, .plane-group {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.plane-group {
+  opacity: 0;
+  transform: rotate(-45deg) scale(0.5);
+}
+
+/* Sub-component state transitions */
+.glasses-group {
+  opacity: 0;
+  transform: translateY(-5px);
+  transition: all 0.4s ease;
+}
+
+.paint-group, .thinking-brow, .thinking-hand {
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.paint-group {
+  transform: scale(0.5);
+  transform-origin: center;
+}
+
+.thinking-brow {
+  transform: translateY(3px);
+}
+
+.thinking-hand {
+  transform: translateY(5px);
+}
+
+/* --- Base States triggered by Javascript --- */
+
+/* 1. Work: Glasses fade on */
+#face-svg[data-active-section="work"] .glasses-group {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 2. Speaking: Thinking face features fade on */
+#face-svg[data-active-section="speaking"] .thinking-brow,
+#face-svg[data-active-section="speaking"] .thinking-hand {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#face-svg[data-active-section="speaking"] .mouth-path {
+  opacity: 0.8; /* Slight dim */
+}
+
+/* 3. Play: Paint splash bursting outward */
+#face-svg[data-active-section="play"] .paint-group {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* 4. Contact / Footer: Origami fold to Paper Airplane */
+#face-svg[data-active-section="contact"] .face-group {
+  opacity: 0;
+  transform: rotate(180deg) scale(0.2);
+}
+
+#face-svg[data-active-section="contact"] .plane-group {
+  opacity: 1;
+  transform: rotate(0deg) scale(1.1);
+}
