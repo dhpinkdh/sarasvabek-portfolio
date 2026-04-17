@@ -130,4 +130,22 @@ document.addEventListener('DOMContentLoaded', () => {
             contact.textContent = decodedUser;
         }
     });
+
+    // --- Mobile Menu Toggle ---
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navLinksMenu = document.getElementById('nav-links-menu');
+    const navItems = document.querySelectorAll('.nav-link');
+
+    if (hamburgerBtn && navLinksMenu) {
+        hamburgerBtn.addEventListener('click', () => {
+            navLinksMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link
+        navItems.forEach(item => {
+            item.addEventListener('click', () => {
+                navLinksMenu.classList.remove('active');
+            });
+        });
+    }
 });
