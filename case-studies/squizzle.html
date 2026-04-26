@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squizzle | Sara Stewart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/main.js" defer></script>
+</head>
+
+<body class="case-study-page">
+
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <div style="display: flex; align-items: center; z-index: 100;">
+                <button id="hamburger-btn" class="icon-button mobile-only" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="../index.html#hero" class="home-icon desktop-only" style="color: var(--text-primary); transition: transform 0.3s ease;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-home">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-links" id="nav-links-menu">
+                <a href="../index.html#hero" class="nav-link mobile-only-link">Home</a>
+                <a href="../index.html#work" class="nav-link">Work</a>
+                <a href="../index.html#speaking" class="nav-link">Feed</a>
+                <a href="../index.html#play" class="nav-link">Play</a>
+                <a href="../index.html#about" class="nav-link">About</a>
+                <a href="../index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="theme-toggle" class="icon-button" aria-label="Toggle Dark/Light Mode" style="z-index: 100;">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-sun" style="display: none;">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Breadcrumb Nav -->
+        <nav class="cs-breadcrumb-nav">
+            <div class="container cs-breadcrumb-nav-inner">
+                <a href="zenbusiness.html" class="cs-breadcrumb-link">← ZB Education</a>
+                <a href="chick-fil-a.html" class="cs-breadcrumb-link">Chick-fil-A Supply →</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="cs-hero" style="background: linear-gradient(135deg, #1a0d2e 0%, #2d1a4a 100%);">
+            <div class="cs-hero-overlay"></div>
+            <div class="container cs-hero-content">
+                <h1 class="cs-title">Squizzle</h1>
+                <p class="cs-subtitle">Independent · Trivia Game</p>
+            </div>
+        </header>
+
+        <!-- Meta Grid -->
+        <section class="cs-meta section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-meta-grid">
+                    <div class="meta-item glass-card">
+                        <h5>Project Type</h5>
+                        <p>Independent / Self-funded</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Role</h5>
+                        <p>Designer & Co-founder</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Platform</h5>
+                        <p>Smart TV & Mobile</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Status</h5>
+                        <p>Prototype</p>
+                    </div>
+                </div>
+
+                <div class="cs-intro mt-5">
+                    <p class="lead-text">Squizzle is a social trivia game I designed during the pandemic — built for the living room TV and mobile phones simultaneously, so everyone in the room can play together.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Concept -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">The Concept</h2>
+                    <p>During the pandemic, remote and in-person social gaming spiked in demand. Existing trivia apps were either built for solo play or required everyone to own the same device. Squizzle was designed around a split-screen model: the TV shows the host view and category reveals, while each player's phone becomes their personal buzzer and answer input.</p>
+                    <p style="margin-top: 1.5rem;">The central design challenge was creating a seamless experience across two very different screen sizes and interaction models — a 65" TV operated by a host, and a 6" phone controlled by a player — without requiring any downloads or accounts to join.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Approach -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">Design Approach</h2>
+                    <p>I designed two parallel interface systems: a TV display optimized for legibility at distance and dramatic category reveals, and a mobile companion interface optimized for fast, one-handed interaction under time pressure. Typography, contrast ratios, and tap target sizes were all calibrated for their respective contexts.</p>
+                    <p style="margin-top: 1.5rem;">The join flow — entering a room code from the TV — was designed to take under 10 seconds with zero friction. No accounts, no downloads, no tutorial required. The game logic was built to work with 2 to 10 players simultaneously without degrading the experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">Prototype & Outcome</h2>
+                    <p>The working prototype was built using Webflow and tested with 15+ groups over several months of pandemic-era game nights. Feedback was overwhelmingly positive on the join experience and the tension created by the TV reveal mechanic. The project remains a prototype, with a full production build contingent on a funding round.</p>
+                </div>
+                <div class="mt-4">
+                    <img src="../assets/squizzle.png" alt="Squizzle" class="cs-img-full" style="max-width: 600px; display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </section>
+
+        <!-- Prev / Next Navigation -->
+        <section class="cs-pagination section-spacing">
+            <div class="container">
+                <div class="cs-nav-strip">
+                    <a href="zenbusiness.html" class="cs-nav-card glass-card">
+                        <div class="cs-nav-thumb-placeholder"></div>
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">← Previous</span>
+                            <span class="cs-nav-title">ZB Education</span>
+                        </div>
+                    </a>
+                    <a href="chick-fil-a.html" class="cs-nav-card glass-card cs-nav-card-right">
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">Next →</span>
+                            <span class="cs-nav-title">Chick-fil-A Supply</span>
+                        </div>
+                        <img src="../assets/case_study_1.png" alt="Chick-fil-A Supply" class="cs-nav-thumb">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content" style="gap: 1.5rem; flex-wrap: wrap;">
+            <p>© Sara Stewart 2026.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/sarastewartwork/" target="_blank">LinkedIn</a>
+                <a href="../index.html#work">Work</a>
+                <a href="https://www.instagram.com/sarastewartwork/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

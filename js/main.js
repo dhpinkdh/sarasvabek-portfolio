@@ -5,11 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const moonIcon = document.getElementById('moon-icon');
     const sunIcon = document.getElementById('sun-icon');
     
-    // Check for saved theme or preference
-    const savedTheme = localStorage.getItem('theme');
-    const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-    
     // Default to dark mode unless user previously explicitly chose light
+    const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'light') {
         document.documentElement.setAttribute('data-theme', 'light');
         updateIcons('light');
@@ -57,21 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Navbar scroll effect
     const navbar = document.querySelector('.navbar');
-    const navLogo = document.getElementById('nav-logo');
-    const faceMouth = document.getElementById('face-mouth');
-    const faceSvg = document.getElementById('face-svg');
-    
-    // Expressions mapping specific sections to mouth SVG paths
-    const expressions = {
-        'hero': 'M8 14 Q12 18 16 14',      // Happy
-        'work': 'M8 15 L16 15',            // Focused straight line (pairs with glasses)
-        'resources': 'M8 14 Q12 21 16 14', // Open face smile
-        'speaking': 'M9 16 L15 16',        // Thinking straight mouth (pairs with hand/brow)
-        'play': 'M7 13 Q12 20 17 13',      // Big open grin
-        'about': 'M8 15 Q12 14 16 15',     // Thoughtful curve
-        'contact': 'M8 14 Q12 18 16 14'    // Happy
-    };
-    
+
     function handleScroll() {
         if (window.scrollY > 20) {
             navbar.style.padding = '0.8rem 0';
@@ -83,31 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // initialize padding smoothly on load
-
-    // Intelligent Face Animation 
-    if (faceMouth) {
-        const sections = document.querySelectorAll('section[id], header[id], main > div[id]');
-        const observerOptions = {
-            root: null,
-            rootMargin: '-30% 0px -60% 0px',
-            threshold: 0
-        };
-        
-        const faceObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const id = entry.target.getAttribute('id');
-                    if (expressions[id]) {
-                        faceMouth.setAttribute('d', expressions[id]);
-                        if (faceSvg) faceSvg.setAttribute('data-active-section', id);
-                    }
-                }
-            });
-        }, observerOptions);
-        
-        sections.forEach(sec => faceObserver.observe(sec));
-    }
+    handleScroll();
 
     // --- Dynamic Years of Experience ---
     const yoeEl = document.getElementById('yoe-counter');

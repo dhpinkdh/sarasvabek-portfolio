@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chick-fil-A Supply App | Sara Stewart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/main.js" defer></script>
+</head>
+
+<body class="case-study-page">
+
+    <nav class="navbar glass">
+        <div class="container nav-content">
+            <div style="display: flex; align-items: center; z-index: 100;">
+                <button id="hamburger-btn" class="icon-button mobile-only" aria-label="Toggle menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="../index.html#hero" class="home-icon desktop-only" style="color: var(--text-primary); transition: transform 0.3s ease;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="feather feather-home">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </a>
+            </div>
+            <div class="nav-links" id="nav-links-menu">
+                <a href="../index.html#hero" class="nav-link mobile-only-link">Home</a>
+                <a href="../index.html#work" class="nav-link">Work</a>
+                <a href="../index.html#speaking" class="nav-link">Feed</a>
+                <a href="../index.html#play" class="nav-link">Play</a>
+                <a href="../index.html#about" class="nav-link">About</a>
+                <a href="../index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="theme-toggle" class="icon-button" aria-label="Toggle Dark/Light Mode" style="z-index: 100;">
+                <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-sun" style="display: none;">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Breadcrumb Nav -->
+        <nav class="cs-breadcrumb-nav">
+            <div class="container cs-breadcrumb-nav-inner">
+                <a href="squizzle.html" class="cs-breadcrumb-link">← Squizzle</a>
+                <a href="adobe.html" class="cs-breadcrumb-link">Adobe Growth Tests →</a>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <header class="cs-hero" style="background: linear-gradient(135deg, #5B0E0E 0%, #1a0a0a 100%);">
+            <div class="cs-hero-overlay"></div>
+            <div class="container cs-hero-content">
+                <h1 class="cs-title">Supply App</h1>
+                <p class="cs-subtitle">Chick-fil-A · Internal Logistics</p>
+            </div>
+        </header>
+
+        <!-- Meta Grid -->
+        <section class="cs-meta section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-meta-grid">
+                    <div class="meta-item glass-card">
+                        <h5>Client</h5>
+                        <p>Chick-fil-A</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Role</h5>
+                        <p>Lead Product Designer</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Platform</h5>
+                        <p>iOS Mobile App</p>
+                    </div>
+                    <div class="meta-item glass-card">
+                        <h5>Agency</h5>
+                        <p>Clade Design</p>
+                    </div>
+                </div>
+
+                <div class="cs-intro mt-5">
+                    <p class="lead-text">Restaurant operators needed a faster, more reliable way to manage supply orders on the floor — without leaving their shift or hunting through legacy systems. We built a net-new internal logistics app from the ground up.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Overview -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">The Problem</h2>
+                    <p>Chick-fil-A operators were managing supply orders through a patchwork of spreadsheets and outdated desktop tools — systems not built for the pace of a restaurant floor. We set out to design a purpose-built mobile app that could handle ordering, tracking, and inventory management in a single, intuitive experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">Research & Process</h2>
+                    <p>We conducted on-site field research at multiple Chick-fil-A locations, shadowing operators during peak hours to understand how they moved through the kitchen, what information they needed at a glance, and where the current tools were creating friction. This informed a clear set of design principles: speed, clarity, and minimal cognitive load.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outcome -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <h2 class="section-title">Outcome</h2>
+                    <p>The app shipped to a pilot group of operators and received strong internal adoption. Key workflows that previously took several minutes were reduced to under 30 seconds. The project established a design system foundation that Chick-fil-A's internal team continued to build on.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prev / Next Navigation -->
+        <section class="cs-pagination section-spacing">
+            <div class="container">
+                <div class="cs-nav-strip">
+                    <a href="squizzle.html" class="cs-nav-card glass-card">
+                        <img src="../assets/squizzle.png" alt="Squizzle" class="cs-nav-thumb">
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">← Previous</span>
+                            <span class="cs-nav-title">Squizzle</span>
+                        </div>
+                    </a>
+                    <a href="adobe.html" class="cs-nav-card glass-card cs-nav-card-right">
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">Next →</span>
+                            <span class="cs-nav-title">Adobe Growth Tests</span>
+                        </div>
+                        <img src="../assets/case_study_3.png" alt="Adobe Growth Tests" class="cs-nav-thumb">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content" style="gap: 1.5rem; flex-wrap: wrap;">
+            <p>© Sara Stewart 2026.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/sarastewartwork/" target="_blank">LinkedIn</a>
+                <a href="../index.html#work">Work</a>
+                <a href="https://www.instagram.com/sarastewartwork/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

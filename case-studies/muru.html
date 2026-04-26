@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark-mode">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -44,11 +44,18 @@
                 <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                 <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun" style="display: none;"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
             </button>
-            </div>
         </div>
     </nav>
 
     <main>
+        <!-- Breadcrumb Nav -->
+        <nav class="cs-breadcrumb-nav">
+            <div class="container cs-breadcrumb-nav-inner">
+                <a href="adobe.html" class="cs-breadcrumb-link">← Adobe Growth Tests</a>
+                <a href="zenbusiness.html" class="cs-breadcrumb-link">ZB Education →</a>
+            </div>
+        </nav>
+
         <!-- Hero Section -->
         <header class="cs-hero"
             style="background: radial-gradient(circle at 10% 20%, rgba(26, 42, 108, 0.4) 0%, rgba(10, 10, 15, 0) 90%);">
@@ -193,15 +200,32 @@
             </div>
         </section>
 
-        <!-- Back to Top / Next Up -->
-        <section class="cs-footer section-spacing text-center">
-            <a href="../index.html#work" class="btn btn-primary btn-large glow-effect">View More Work</a>
+        <!-- Prev / Next Navigation -->
+        <section class="cs-pagination section-spacing">
+            <div class="container">
+                <div class="cs-nav-strip">
+                    <a href="adobe.html" class="cs-nav-card glass-card">
+                        <img src="../assets/case_study_3.png" alt="Adobe Growth Tests" class="cs-nav-thumb">
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">← Previous</span>
+                            <span class="cs-nav-title">Adobe Growth Tests</span>
+                        </div>
+                    </a>
+                    <a href="zenbusiness.html" class="cs-nav-card glass-card cs-nav-card-right">
+                        <div class="cs-nav-card-text">
+                            <span class="cs-nav-direction">Next →</span>
+                            <span class="cs-nav-title">ZB Education</span>
+                        </div>
+                        <div class="cs-nav-thumb-placeholder"></div>
+                    </a>
+                </div>
+            </div>
         </section>
 
     </main>
 
     <!-- Global Scripts -->
-    <script src="../js/main.js"></script>
+    <script src="../js/main.js" defer></script>
 
     <!-- Case Study Specific Local Script -->
     <script>
