@@ -9,6 +9,7 @@
   --glass-bg: rgba(26, 21, 22, 0.7);
   --glass-border: rgba(255, 233, 233, 0.08);
   --accent-color: #FF8EAD;
+  --primary-color: #FF8EAD;
   --accent-gradient: linear-gradient(135deg, #FF8EAD, #E06C8B);
   --btn-text: #1A1516;
   --hero-shape-bg: #2B1D20;
@@ -24,6 +25,7 @@
   --glass-bg: rgba(253, 251, 251, 0.85);
   --glass-border: rgba(90, 70, 75, 0.08);
   --accent-color: #D65A78;
+  --primary-color: #D65A78;
   --accent-gradient: linear-gradient(135deg, #FF7096, #D65A78);
   --btn-text: #FFFFFF;
   --hero-shape-bg: #FFE9E9;
@@ -81,6 +83,20 @@ a {
 
 .text-center { text-align: center; }
 .mb-5 { margin-bottom: 3rem; }
+.mt-3 { margin-top: 1.5rem; }
+.mt-4 { margin-top: 2rem; }
+.mt-5 { margin-top: 3rem; }
+
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.cs-subtitle {
+  font-size: 1.2rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+}
 
 .section-spacing {
   padding: 8rem 0;
@@ -322,81 +338,6 @@ a {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-}
-
-/* Work Grid - Case Studies */
-.work-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
-}
-
-.work-card {
-  display: flex;
-  flex-direction: column;
-  border-radius: 24px;
-  overflow: hidden;
-  position: relative;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.work-card:hover {
-  transform: translateY(-10px);
-}
-
-.work-img-wrapper {
-  aspect-ratio: 4/3;
-  overflow: hidden;
-  background: var(--bg-alternate);
-}
-
-.work-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.work-card:hover .work-img {
-  transform: scale(1.05);
-}
-
-.work-meta {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
-  padding: 1.5rem;
-  border-radius: 16px;
-  opacity: 0;
-  transform: translateY(20px);
-  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.work-card:hover .work-meta {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.work-tag {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  color: var(--accent-color);
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.work-name {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-bottom: 0.25rem;
-}
-
-.work-desc {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
 }
 
 /* Art Section */
@@ -846,111 +787,11 @@ a {
     font-size: 2.5rem;
   }
   
-  .work-meta {
-    opacity: 1;
-    transform: translateY(0);
-    position: relative;
-    bottom: auto; left: auto; right: auto;
-    border-radius: 0 0 24px 24px;
-    border: none;
-    border-top: 1px solid var(--border-color);
-  }
-  
-  .work-img-wrapper {
-    border-radius: 24px 24px 0 0;
-  }
-
   .footer-content {
     flex-direction: column;
     gap: 1rem;
     text-align: center;
   }
-}
-
-/* =========================================================================
-   Elaborate SVG Face Animations (Origami Fold & Morph States)
-   ========================================================================= */
-
-#face-svg {
-  overflow: visible;
-  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-/* Animate standard curves like mouth uniformly */
-.mouth-path {
-  transition: d 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-/* Master group wrapper transitions */
-.face-group, .plane-group {
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-origin: center;
-}
-
-.plane-group {
-  opacity: 0;
-  transform: rotate(-45deg) scale(0.5);
-}
-
-/* Sub-component state transitions */
-.glasses-group {
-  opacity: 0;
-  transform: translateY(-5px);
-  transition: all 0.4s ease;
-}
-
-.paint-group, .thinking-brow, .thinking-hand {
-  opacity: 0;
-  transition: all 0.4s ease;
-}
-
-.paint-group {
-  transform: scale(0.5);
-  transform-origin: center;
-}
-
-.thinking-brow {
-  transform: translateY(3px);
-}
-
-.thinking-hand {
-  transform: translateY(5px);
-}
-
-/* --- Base States triggered by Javascript --- */
-
-/* 1. Work: Glasses fade on */
-#face-svg[data-active-section="work"] .glasses-group {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* 2. Speaking: Thinking face features fade on */
-#face-svg[data-active-section="speaking"] .thinking-brow,
-#face-svg[data-active-section="speaking"] .thinking-hand {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-#face-svg[data-active-section="speaking"] .mouth-path {
-  opacity: 0.8; /* Slight dim */
-}
-
-/* 3. Play: Paint splash bursting outward */
-#face-svg[data-active-section="play"] .paint-group {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* 4. Contact / Footer: Origami fold to Paper Airplane */
-#face-svg[data-active-section="contact"] .face-group {
-  opacity: 0;
-  transform: rotate(180deg) scale(0.2);
-}
-
-#face-svg[data-active-section="contact"] .plane-group {
-  opacity: 1;
-  transform: rotate(0deg) scale(1.1);
 }
 
 /* About Page Timeline */
@@ -1268,6 +1109,167 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
   }
   .mobile-nav-fab {
     display: flex !important;
+  }
+}
+
+/* Platform Tags */
+.work-platforms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.platform-pill {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  padding: 0.2rem 0.65rem;
+  border-radius: 100px;
+}
+
+/* Adobe-style multi-link work row */
+.work-sub-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.work-row-multi {
+  cursor: default;
+}
+
+.work-row-multi:hover {
+  transform: none;
+}
+
+.work-row-multi:hover .work-list-img {
+  transform: scale(1.03);
+}
+
+.work-sub-links .work-link-text {
+  display: inline-flex;
+  width: fit-content;
+}
+
+.work-sub-links .work-link-text .arrow {
+  transition: transform 0.2s ease;
+}
+
+.work-sub-links .work-link-text:hover .arrow {
+  transform: translateX(5px);
+}
+
+/* Case Study Breadcrumb (top nav strip) */
+.cs-breadcrumb-nav {
+  padding: 5rem 0 0.875rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cs-breadcrumb-nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cs-breadcrumb-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.cs-breadcrumb-link:hover {
+  color: var(--text-primary);
+}
+
+/* Case Study Prev/Next Pagination */
+.cs-pagination {
+  border-top: 1px solid var(--border-color);
+}
+
+.cs-nav-strip {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.cs-nav-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  color: inherit;
+}
+
+.cs-nav-card:hover {
+  transform: translateY(-4px);
+}
+
+.cs-nav-card-right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.cs-nav-thumb {
+  width: 90px;
+  height: 65px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.cs-nav-thumb-placeholder {
+  width: 90px;
+  height: 65px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  background: var(--bg-alternate);
+  border: 1px solid var(--border-color);
+}
+
+.cs-nav-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cs-nav-direction {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+.cs-nav-card-right .cs-nav-direction {
+  text-align: right;
+}
+
+.cs-nav-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+  .cs-nav-strip {
+    grid-template-columns: 1fr;
+  }
+  .cs-nav-card-right {
+    flex-direction: row;
+    text-align: left;
+  }
+  .cs-nav-card-right .cs-nav-direction {
+    text-align: left;
   }
 }
 
