@@ -8,6 +8,101 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../js/main.js" defer></script>
+    <style>
+        .cfa-accent { color: #DD0033; }
+        .cfa-section-label {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: #DD0033;
+            margin-bottom: 0.75rem;
+            display: block;
+        }
+        .cfa-lead {
+            font-size: clamp(1.6rem, 3vw, 2.6rem);
+            font-weight: 700;
+            line-height: 1.25;
+            color: var(--text-primary);
+        }
+        .cfa-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+        .cfa-split-reverse {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+        }
+        @media (max-width: 900px) {
+            .cfa-split, .cfa-split-reverse { grid-template-columns: 1fr; gap: 2.5rem; }
+        }
+        .cfa-img-frame {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .cfa-img-frame img { width: 100%; display: block; }
+        .phones-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            align-items: center;
+        }
+        @media (max-width: 768px) {
+            .phones-row { grid-template-columns: 1fr; }
+        }
+        .phone-wrap {
+            position: relative;
+        }
+        .phone-wrap img { width: 100%; display: block; }
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+        .stat-card {
+            padding: 2rem 1.5rem;
+            border-radius: 16px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.8rem;
+            font-weight: 800;
+            color: #DD0033;
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+        .caption-box {
+            background: #FCF8F3;
+            color: #004F71;
+            border-left: 4px solid #DD0033;
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 12px 12px 0;
+            font-weight: 600;
+            font-size: 1rem;
+            margin-top: 1.5rem;
+        }
+        [data-theme="dark"] .caption-box {
+            background: rgba(252,248,243,0.08);
+            color: #a0cfe0;
+        }
+        .outcome-statement {
+            font-size: clamp(1.6rem, 3vw, 2.4rem);
+            font-weight: 700;
+            line-height: 1.3;
+            max-width: 760px;
+        }
+    </style>
 </head>
 
 <body class="case-study-page">
@@ -71,11 +166,20 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero" style="background: linear-gradient(135deg, #5B0E0E 0%, #1a0a0a 100%);">
-            <div class="cs-hero-overlay"></div>
-            <div class="container cs-hero-content">
-                <h1 class="cs-title">Supply App</h1>
-                <p class="cs-subtitle">Chick-fil-A · Internal Logistics</p>
+        <header class="cs-hero" style="background: #FCF8F3; min-height: 70vh;">
+            <div style="position: absolute; inset: 0; border: 10px solid #DD0033; pointer-events: none; z-index: 2;"></div>
+            <div style="position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; align-items: center; z-index: 1; overflow: hidden;">
+                <div style="position: relative; height: 100%; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 2rem;">
+                    <img src="../assets/cfa/hero-app-screen.png" alt="CFA Supply App"
+                        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); height: 85%; object-fit: contain; z-index: 2;">
+                    <img src="../assets/cfa/hero-phone-mockup.png" alt="Phone mockup"
+                        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-45%); height: 90%; object-fit: contain; z-index: 1;">
+                </div>
+                <div style="padding: 4rem; display: flex; flex-direction: column; justify-content: center;">
+                    <img src="../assets/case_study_1.png" alt="Chick-fil-A Supply"
+                        style="max-width: 320px; margin-bottom: 1.5rem; object-fit: contain;">
+                    <p style="font-size: 1.4rem; font-weight: 700; color: #004F71;">Lead Product Designer</p>
+                </div>
             </div>
         </header>
 
@@ -85,7 +189,7 @@
                 <div class="cs-meta-grid">
                     <div class="meta-item glass-card">
                         <h5>Client</h5>
-                        <p>Chick-fil-A</p>
+                        <p>Chick-fil-A Supply</p>
                     </div>
                     <div class="meta-item glass-card">
                         <h5>Role</h5>
@@ -97,43 +201,197 @@
                     </div>
                     <div class="meta-item glass-card">
                         <h5>Agency</h5>
-                        <p>Clade Design</p>
+                        <p>Clade Design · 2018–2021</p>
                     </div>
                 </div>
-
-                <div class="cs-intro mt-5">
-                    <p class="lead-text">Restaurant operators needed a faster, more reliable way to manage supply orders on the floor — without leaving their shift or hunting through legacy systems. We built a net-new internal logistics app from the ground up.</p>
-                </div>
             </div>
         </section>
 
-        <!-- Overview -->
+        <!-- The Problem -->
         <section class="cs-content-block section-spacing">
             <div class="container">
-                <div class="cs-text-wrap">
-                    <h2 class="section-title">The Problem</h2>
-                    <p>Chick-fil-A operators were managing supply orders through a patchwork of spreadsheets and outdated desktop tools — systems not built for the pace of a restaurant floor. We set out to design a purpose-built mobile app that could handle ordering, tracking, and inventory management in a single, intuitive experience.</p>
+                <div class="cfa-split">
+                    <div>
+                        <span class="cfa-section-label">The Problem</span>
+                        <p class="cfa-lead">There was a breakdown of communication between distributors (drivers) and store owners (operators).</p>
+                        <p style="margin-top: 1.5rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary);">
+                            Chick-fil-A's supply chain relied on nightly deliveries to hundreds of stores, coordinated between distribution drivers and store operators. When something went wrong — a delayed truck, damaged product, a shortage — there was no reliable system to flag it, track it, or resolve it in real time.
+                        </p>
+                    </div>
+                    <div class="cfa-img-frame">
+                        <img src="../assets/cfa/solution-workers.png" alt="Distribution workers with scanner">
+                        <div class="caption-box">
+                            Create an easy way for operators and drivers to communicate, create issues, and provide feedback on distribution.
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Process -->
+        <!-- Stop-Gap -->
         <section class="cs-content-block section-spacing alternate-bg">
             <div class="container">
-                <div class="cs-text-wrap">
-                    <h2 class="section-title">Research & Process</h2>
-                    <p>We conducted on-site field research at multiple Chick-fil-A locations, shadowing operators during peak hours to understand how they moved through the kitchen, what information they needed at a glance, and where the current tools were creating friction. This informed a clear set of design principles: speed, clarity, and minimal cognitive load.</p>
+                <span class="cfa-section-label">The Stop-Gap</span>
+                <p class="cfa-lead" style="max-width: 720px; margin-bottom: 3rem;">
+                    Stores were printing out 'cheat sheets' and taping them by the back door as a stop-gap solution for drivers.
+                </p>
+                <div class="cfa-img-frame" style="max-width: 900px; margin: 0 auto;">
+                    <img src="../assets/cfa/stopgap-cheatsheet.png" alt="Printed delivery cheat sheet taped by back door">
+                </div>
+                <div class="caption-box" style="max-width: 900px; margin: 0 auto;">
+                    Each store had these 'cheat sheets' printed out by the back door with instructions for the drivers as a stop-gap solution.
                 </div>
             </div>
         </section>
 
-        <!-- Outcome -->
+        <!-- Research -->
         <section class="cs-content-block section-spacing">
             <div class="container">
-                <div class="cs-text-wrap">
-                    <h2 class="section-title">Outcome</h2>
-                    <p>The app shipped to a pilot group of operators and received strong internal adoption. Key workflows that previously took several minutes were reduced to under 30 seconds. The project established a design system foundation that Chick-fil-A's internal team continued to build on.</p>
+                <div class="cfa-split-reverse">
+                    <div class="cfa-img-frame">
+                        <img src="../assets/cfa/research-truck.png" alt="Chick-fil-A Supply truck at night">
+                    </div>
+                    <div>
+                        <span class="cfa-section-label">Research</span>
+                        <p class="cfa-lead">We went to Chick-fil-A HQ — and rode along on a night of deliveries.</p>
+                        <p style="margin-top: 1.5rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary);">
+                            At Chick-fil-A headquarters we spoke with operators, team members, and drivers. We also participated in 'ride alongs' to the stores where we observed what might happen on a night of deliveries.
+                        </p>
+                        <p style="margin-top: 1rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary);">
+                            We observed pain points, areas of opportunity, and defined our key user stories to focus on for the MVP.
+                        </p>
+                    </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Ride Along Photo -->
+        <section class="cs-content-block" style="padding: 0 0 6rem;">
+            <div class="container">
+                <div class="cfa-img-frame" style="position: relative;">
+                    <img src="../assets/cfa/ride-along.png" alt="Sara on a ride-along inside a Chick-fil-A store">
+                    <div style="position: absolute; top: 1.5rem; right: 1.5rem; background: #DD0033; color: white; border-radius: 100px; padding: 0.4rem 1.2rem; font-weight: 700; font-size: 0.9rem;">
+                        ← me!
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- User Stories -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cfa-split">
+                    <div>
+                        <span class="cfa-section-label">User Stories</span>
+                        <p class="cfa-lead">On a good day, operators and drivers should never need to open the app.</p>
+                        <p style="margin-top: 1.5rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary);">
+                            We focused our key user stories on the things that could and would go wrong. The goal was to make it quick and easy to fix, report, and track issues as they occur.
+                        </p>
+                        <p style="margin-top: 1rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary);">
+                            Our primary scenario — "Bradley's Bad Day" — walked through an operator waking up to a delayed delivery notification, discovering a product shortage on arrival, and needing to file an issue report fast, on a loading dock, at 4am.
+                        </p>
+                    </div>
+                    <div class="cfa-img-frame">
+                        <img src="../assets/cfa/screen-notifications.png" alt="Order notifications screen">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Information Architecture -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <span class="cfa-section-label">Information Architecture</span>
+                <p class="cfa-lead" style="max-width: 720px; margin-bottom: 3rem;">Q3 Experience Map — a high-level overview of the full application.</p>
+                <div class="cfa-img-frame">
+                    <img src="../assets/cfa/experience-map.png" alt="Q3 Experience Map for CFA Supply">
+                </div>
+            </div>
+        </section>
+
+        <!-- Wireframes -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <span class="cfa-section-label">Wireframes</span>
+                <p class="cfa-lead" style="max-width: 680px; margin-bottom: 3rem;">Mapping the onboarding flow before moving to high-fidelity.</p>
+                <div class="phones-row">
+                    <div class="phone-wrap">
+                        <img src="../assets/cfa/phone-frame.png" alt="Phone frame" style="position: absolute; inset: 0; width: 100%; z-index: 1; pointer-events: none;">
+                        <img src="../assets/cfa/wireframe-welcome.png" alt="Welcome / Sign in wireframe" style="position: relative; z-index: 2; width: 76%; margin: 10.5% auto 0; display: block;">
+                    </div>
+                    <div class="phone-wrap">
+                        <img src="../assets/cfa/phone-frame.png" alt="Phone frame" style="position: absolute; inset: 0; width: 100%; z-index: 1; pointer-events: none;">
+                        <img src="../assets/cfa/wireframe-onboarding.png" alt="Onboarding notification preferences wireframe" style="position: relative; z-index: 2; width: 76%; margin: 10.5% auto 0; display: block;">
+                    </div>
+                    <div class="phone-wrap">
+                        <img src="../assets/cfa/phone-frame.png" alt="Phone frame" style="position: absolute; inset: 0; width: 100%; z-index: 1; pointer-events: none;">
+                        <img src="../assets/cfa/wireframe-profile.png" alt="Profile setup wireframe" style="position: relative; z-index: 2; width: 76%; margin: 10.5% auto 0; display: block;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Designs: Orders -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <span class="cfa-section-label">Visual Designs</span>
+                <p class="cfa-lead" style="max-width: 680px; margin-bottom: 3rem;">Order management — status at a glance, filtering, and push notifications.</p>
+                <div class="phones-row">
+                    <div>
+                        <img src="../assets/cfa/screen-orders.png" alt="All Orders dashboard" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                    <div>
+                        <img src="../assets/cfa/screen-filters.png" alt="Filter by status and date" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                    <div>
+                        <img src="../assets/cfa/screen-notifications.png" alt="Notifications inbox" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Designs: Issue Reporting -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <span class="cfa-section-label">Issue Reporting</span>
+                <p class="cfa-lead" style="max-width: 680px; margin-bottom: 0.75rem;">Quick and structured — report a damaged or missing product in under a minute.</p>
+                <p style="color: var(--text-secondary); margin-bottom: 3rem; font-size: 1rem;">Select the store and order, categorise the issue, add photos, review and submit.</p>
+                <div class="phones-row">
+                    <div>
+                        <img src="../assets/cfa/screen-create-issue.png" alt="Create issue — select type" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                    <div>
+                        <img src="../assets/cfa/screen-issue-detail.png" alt="Create issue — product detail and photos" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                    <div>
+                        <img src="../assets/cfa/screen-issue-review.png" alt="Review and submit issue" style="width: 100%; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,0,0,0.25);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Outcomes -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <span class="cfa-section-label">Outcomes</span>
+                <p class="outcome-statement">After a very successful test cohort with 20 stores, we were able to roll out the app. It is now used in every Chick-fil-A store and by all their distribution teams.</p>
+                <div class="stat-grid">
+                    <div class="stat-card glass-card">
+                        <div class="stat-number">20</div>
+                        <div class="stat-label">Store pilot cohort</div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-number">2,800+</div>
+                        <div class="stat-label">Chick-fil-A locations</div>
+                    </div>
+                    <div class="stat-card glass-card">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Years of continued development</div>
+                    </div>
+                </div>
+                <p style="margin-top: 3rem; font-size: 1.1rem; line-height: 1.7; color: var(--text-secondary); max-width: 720px;">
+                    We continued to improve the app for another 2 years, adding new features and expanding to more user types, until I closed Clade Design's doors.
+                </p>
             </div>
         </section>
 
