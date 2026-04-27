@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Squizzle | Sara Stewart</title>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../js/main.js" defer></script>
+    <style>
+        /* ── Squizzle Brand Typography ── */
+        main { font-family: 'Playfair Display', Georgia, serif; }
+        main h1, main h2, main h3, main h4, main h5,
+        main .cs-title, main .section-title {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-weight: 800;
+        }
+        main .section-title { font-style: italic; }
+        main .lead-text { font-family: 'Playfair Display', Georgia, serif; }
+
+        /* ── Squizzle Brand Colors: vivid blue #3B63E8 ── */
+        main { --accent-color: #3B63E8; }
+        main .section-title { color: var(--text-primary); }
+        main .cs-nav-direction { color: #3B63E8; }
+        main .meta-item h5 { color: #3B63E8; }
+        main .meta-item.glass-card {
+            border-color: rgba(59, 99, 232, 0.3);
+        }
+        /* Blue-tinted alternate sections */
+        main .section-spacing.alternate-bg {
+            background: rgba(59, 99, 232, 0.08) !important;
+        }
+    </style>
 </head>
 
 <body class="case-study-page">

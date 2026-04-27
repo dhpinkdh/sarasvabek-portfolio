@@ -8,6 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
     <script src="../js/main.js" defer></script>
+    <style>
+        /* ── Adobe Brand Typography ──
+           Adobe Clean Display is an Adobe proprietary typeface. Add your
+           Adobe Fonts kit to load it; it will fall back to Helvetica Neue. */
+        main {
+            font-family: "Adobe Clean Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        main h1, main h2, main h3, main h4, main h5,
+        main .cs-title, main .section-title {
+            font-family: "Adobe Clean Display", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+        }
+
+        /* ── Adobe Brand Colors: white bg, Adobe red ── */
+        main { --accent-color: #FF0000; }
+        main .cs-content-block,
+        main .cs-meta,
+        main .cs-testimonial,
+        main .cs-pagination { background: #FFFFFF; color: #111111; }
+        main .section-spacing.alternate-bg { background: #F5F5F5 !important; }
+        main .section-title { color: #111111; }
+        main .lead-text { color: #333333; }
+        main p { color: #444444; }
+        main .meta-item.glass-card {
+            background: #F5F5F5;
+            border: 1px solid #E0E0E0;
+            backdrop-filter: none;
+            color: #111111;
+        }
+        main .meta-item h5 { color: #888888; }
+        main .btn.btn-secondary {
+            background: #F5F5F5;
+            border-color: #E0E0E0;
+            color: #111111;
+        }
+        main .btn.btn-secondary:hover { background: #FF0000; color: #fff; border-color: #FF0000; }
+        main [style*="color: var(--accent-color)"] { color: #FF0000 !important; }
+        main .cs-nav-direction { color: #FF0000; }
+        main .cs-nav-card { background: #F5F5F5; border: 1px solid #E0E0E0; }
+        main .cs-nav-title { color: #111111; }
+    </style>
 </head>
 
 <body class="case-study-page">
