@@ -1273,3 +1273,48 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
   }
 }
 
+/* =========================================================================
+   Hero Tilt Effect
+   ========================================================================= */
+.cs-hero--has-visual {
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  min-height: 92vh;
+  padding-top: 5rem;
+  padding-bottom: 0;
+  gap: 2rem;
+}
+
+.cs-hero-visual {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  pointer-events: none;
+}
+
+.cs-hero-tilt {
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.cs-hero-tilt img {
+  max-height: 340px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 28px 72px rgba(0,0,0,0.5));
+}
+
+@media (max-width: 768px) {
+  .cs-hero--has-visual {
+    min-height: 80vh;
+    padding-top: 4rem;
+    gap: 1.5rem;
+  }
+  .cs-hero-tilt img {
+    max-height: 240px;
+  }
+}
+

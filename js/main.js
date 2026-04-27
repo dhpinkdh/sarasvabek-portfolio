@@ -90,6 +90,23 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // --- Hero Tilt Effect ---
+    const csHero = document.querySelector('.cs-hero');
+    if (csHero) {
+        const tiltEl = csHero.querySelector('.cs-hero-tilt');
+        if (tiltEl) {
+            csHero.addEventListener('mousemove', (e) => {
+                const rect = csHero.getBoundingClientRect();
+                const x = (e.clientX - rect.left) / rect.width - 0.5;
+                const y = (e.clientY - rect.top) / rect.height - 0.5;
+                tiltEl.style.transform = `perspective(900px) rotateY(${x * 16}deg) rotateX(${-y * 10}deg) translateZ(20px)`;
+            });
+            csHero.addEventListener('mouseleave', () => {
+                tiltEl.style.transform = 'perspective(900px) rotateY(0deg) rotateX(0deg) translateZ(0px)';
+            });
+        }
+    }
+
     // --- Mobile Menu Toggle ---
     const hamburgerBtn = document.getElementById('hamburger-btn');
     const navLinksMenu = document.getElementById('nav-links-menu');
