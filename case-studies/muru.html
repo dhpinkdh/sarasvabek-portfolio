@@ -11,8 +11,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="../css/index.css">
     <style>
-        /* ── MURU Brand Typography ── */
-        main { font-family: 'Space Grotesk', sans-serif; }
+        /* ── MURU Brand: dark canvas, Space Grotesk, teal accent ── */
+        main { font-family: 'Space Grotesk', sans-serif; --accent-color: #2DD4BF; }
         main h1, main h2, main h3, main h4, main h5,
         main .cs-title, main .section-title {
             font-family: 'Space Grotesk', sans-serif;
@@ -20,15 +20,222 @@
             letter-spacing: -0.02em;
         }
         main .lead-text { font-family: 'Space Grotesk', sans-serif; }
-
-        /* ── MURU Brand Colors: dark + teal accent ── */
-        main { --accent-color: #2DD4BF; }
         main .section-title { color: #2DD4BF; }
         main .cs-nav-direction { color: #2DD4BF; }
         main .meta-item h5 { color: #2DD4BF; }
         main .pull-quote { border-left: 4px solid #2DD4BF; }
         main .quote-author strong { color: #2DD4BF; }
-        main [style*="color: var(--accent-color)"] { color: #2DD4BF !important; }
+
+        /* ── MURU dark background override ── */
+        main .cs-content-block,
+        main .cs-meta,
+        main .cs-testimonial,
+        main .cs-pagination,
+        main .cs-media-showcase {
+            background: #171717;
+        }
+        main .section-spacing.alternate-bg {
+            background: #1f1f1f !important;
+        }
+        main p, main li { color: rgba(255,255,255,0.72); }
+        main .lead-text { color: rgba(255,255,255,0.92); }
+
+        /* ── Section label pill (yellow) ── */
+        .muru-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            color: #171717;
+            background: #FEDF50;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 1.25rem;
+        }
+
+        /* ── Meta glass cards ── */
+        main .meta-item.glass-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* ── Stat row ── */
+        .muru-stat-row {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+        }
+        .muru-stat {
+            background: rgba(45, 212, 191, 0.08);
+            border: 1px solid rgba(45, 212, 191, 0.25);
+            border-radius: 16px;
+            padding: 1.75rem 2.25rem;
+            flex: 1;
+            min-width: 160px;
+            text-align: center;
+        }
+        .muru-stat-value {
+            font-size: 2.75rem;
+            font-weight: 700;
+            color: #2DD4BF;
+            line-height: 1;
+            letter-spacing: -0.03em;
+        }
+        .muru-stat-label {
+            font-size: 0.78rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: rgba(255,255,255,0.45);
+            margin-top: 0.5rem;
+        }
+
+        /* ── Two-column image+text layout ── */
+        .muru-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        .muru-split.reverse { direction: rtl; }
+        .muru-split.reverse > * { direction: ltr; }
+        @media (max-width: 768px) {
+            .muru-split { grid-template-columns: 1fr; }
+            .muru-split.reverse { direction: ltr; }
+        }
+
+        /* ── IA diagram ── */
+        .muru-ia {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1.25rem;
+            margin-top: 2.5rem;
+        }
+        .muru-ia-root {
+            background: #3B62D3;
+            color: #fff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            padding: 0.9rem 2.5rem;
+            border-radius: 12px;
+            letter-spacing: -0.01em;
+        }
+        .muru-ia-connector {
+            width: 2px;
+            height: 1.5rem;
+            background: rgba(255,255,255,0.2);
+        }
+        .muru-ia-children {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .muru-ia-child {
+            background: rgba(59,98,211,0.25);
+            border: 1px solid rgba(59,98,211,0.5);
+            color: rgba(255,255,255,0.85);
+            padding: 0.65rem 1.5rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .muru-ia-grandchildren {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .muru-ia-grandchild {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.12);
+            color: rgba(255,255,255,0.6);
+            padding: 0.45rem 1rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+        }
+
+        /* ── COVID stat box ── */
+        .muru-covid-stats {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            margin-top: 2.5rem;
+            justify-content: center;
+        }
+        .muru-covid-stat {
+            background: rgba(254,223,80,0.08);
+            border: 1px solid rgba(254,223,80,0.3);
+            border-radius: 16px;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            min-width: 140px;
+        }
+        .muru-covid-stat-value {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #FEDF50;
+            line-height: 1;
+            letter-spacing: -0.03em;
+        }
+        .muru-covid-stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: rgba(255,255,255,0.45);
+            margin-top: 0.5rem;
+        }
+
+        /* ── App of NY stats ── */
+        .muru-ny-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.25rem;
+            margin-top: 2.5rem;
+        }
+        @media (max-width: 900px) {
+            .muru-ny-stats { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 480px) {
+            .muru-ny-stats { grid-template-columns: 1fr 1fr; }
+        }
+        .muru-ny-stat {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 1.5rem 1.25rem;
+            text-align: center;
+        }
+        .muru-ny-stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #2DD4BF;
+            line-height: 1;
+            letter-spacing: -0.03em;
+        }
+        .muru-ny-stat-label {
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: rgba(255,255,255,0.4);
+            margin-top: 0.5rem;
+        }
+
+        /* ── Review stars ── */
+        .muru-stars {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .muru-star { color: #FEDF50; font-size: 1.5rem; }
+        .muru-rating { font-size: 1.25rem; font-weight: 700; color: #fff; margin-left: 0.5rem; }
+
+        /* ── Nav card overrides ── */
+        main .cs-nav-card { background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); }
+        main .cs-nav-title { color: rgba(255,255,255,0.85); }
     </style>
 </head>
 
@@ -77,22 +284,22 @@
             </div>
         </nav>
 
-        <!-- Hero Section -->
-        <header class="cs-hero cs-hero--has-visual"
-            style="background: radial-gradient(circle at 10% 20%, rgba(26, 42, 108, 0.4) 0%, rgba(10, 10, 15, 0) 90%);">
+        <!-- ── Hero ── -->
+        <header class="cs-hero cs-hero--has-visual" style="background: radial-gradient(ellipse at 20% 50%, rgba(45,212,191,0.12) 0%, #171717 60%);">
             <div class="container cs-hero-content">
-                <img src="../assets/muru/logo.png" alt="MURU Logo" class="cs-logo">
+                <img src="../assets/muru/logo.png" alt="MURU Logo" class="cs-logo" onerror="this.style.display='none'">
                 <h1 class="cs-title">MURU</h1>
                 <p class="cs-subtitle">Empowering Medics Worldwide</p>
             </div>
             <div class="cs-hero-visual">
                 <div class="cs-hero-tilt">
-                    <img src="../assets/muru/iphone-mockup.png" alt="MURU App on iPhone">
+                    <img src="../assets/muru/hero-tilted-phone.png" alt="MURU App on iPhone"
+                         onerror="this.src='../assets/muru/iphone-mockup.png'">
                 </div>
             </div>
         </header>
 
-        <!-- Meta Grid -->
+        <!-- ── Meta / Overview ── -->
         <section class="cs-meta section-spacing alternate-bg">
             <div class="container">
                 <div class="cs-meta-grid">
@@ -102,101 +309,229 @@
                     </div>
                     <div class="meta-item glass-card">
                         <h5>Role</h5>
-                        <p>Product Designer, UI/UX</p>
+                        <p>Design Lead</p>
                     </div>
                     <div class="meta-item glass-card">
-                        <h5>Platform</h5>
-                        <p>iOS & Android Mobile App</p>
+                        <h5>Team</h5>
+                        <p>2 designers · 3 engineers · 1 CEO</p>
                     </div>
                     <div class="meta-item glass-card">
-                        <h5>Tagline</h5>
-                        <p>Medics deserve better.</p>
+                        <h5>Duration</h5>
+                        <p>6 months</p>
                     </div>
                 </div>
 
                 <div class="cs-intro mt-5">
-                    <p class="lead-text">You deserve a protocol question answered as fast as you can ask it, to never do
-                        a drug calc, capability lookup, or check a manufacturer’s recommendation again. Everything is
-                        precisely customized to you. Focus on your patient, not the data.</p>
+                    <p class="lead-text">You deserve a protocol question answered as fast as you can ask it — to never do a drug calc, capability lookup, or check a manufacturer's recommendation again. Everything precisely customized to you. Focus on your patient, not the data.</p>
                 </div>
             </div>
         </section>
 
-        <!-- Content Section 1: The Client -->
+        <!-- ── The Problem ── -->
         <section class="cs-content-block section-spacing">
             <div class="container">
-                <div class="cs-text-wrap">
-                    <h2 class="section-title">The Client: Your Medical Guru</h2>
-                    <p>MURU was founded by Steven Blocker. Steven is a paramedic who was sick of the problems in the
-                        industry, so he decided to build a solution. He hired our team as well as a diverse group of
-                        paramedics and engineers who were driven to help solve this problem.</p>
-                </div>
-                <!-- Inline Grid for Client Images -->
-                <div class="inline-grid mt-3">
-                    <img src="../assets/muru/client1.png" alt="Client 1" class="cs-img-rounded">
-                    <img src="../assets/muru/client2.png" alt="Client 2" class="cs-img-rounded">
-                    <img src="../assets/muru/client3.png" alt="Client 3" class="cs-img-rounded">
+                <div class="muru-split">
+                    <div>
+                        <span class="muru-label">The Problem</span>
+                        <h2 class="section-title">Protocols Live in 3-Ring Binders</h2>
+                        <p>EMS protocols — the step-by-step procedures paramedics rely on in life-or-death moments — were still being distributed as physical binders and PDFs. They were complicated to navigate, impossible to search quickly, and a nightmare to keep updated across agencies.</p>
+                        <p style="margin-top: 1.25rem;">When protocols change, someone has to print new pages, drive to every station, and manually swap them out. Meanwhile, medics in the field are working off outdated information.</p>
+                    </div>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                        <img src="../assets/muru/protocol-doc.png" alt="EMS Protocol Document" class="cs-img-rounded" style="max-width: 220px; flex: 1;">
+                        <img src="../assets/muru/protocol-binder.png" alt="EMS Protocol Binder" class="cs-img-rounded" style="max-width: 220px; flex: 1;">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Content Section 2: Research -->
+        <!-- ── The Goal ── -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="muru-split reverse">
+                    <div>
+                        <span class="muru-label">The Goal</span>
+                        <h2 class="section-title">A Modern EMS Database</h2>
+                        <p>Steven Blocker, a paramedic himself, was determined to fix this. The goal was to digitize protocols into a searchable, always-up-to-date mobile database — so that any medic, anywhere, could pull up exactly what they need in seconds.</p>
+                        <p style="margin-top: 1.25rem;">MURU needed to handle medications, equipment, hospital capabilities, and regional protocol variations — all personalized to the user's agency and role.</p>
+                    </div>
+                    <div>
+                        <img src="../assets/muru/ems-database.png" alt="EMS Database Vision" class="cs-img-rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── User Interviews ── -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <span class="muru-label">Research</span>
+                <h2 class="section-title">Talking to the People in the Field</h2>
+                <p class="cs-text-wrap">We interviewed military and civilian paramedics, EMTs, and hospital staff across the US. We needed to understand not just what information they needed, but <em>how</em> they needed to access it — in high-stress, time-critical situations where every second counts.</p>
+
+                <div class="mt-4">
+                    <img src="../assets/muru/user-interviews.png" alt="Paramedic and EMT User Interviews" class="cs-img-full" style="border-radius: 16px; max-height: 420px; object-fit: cover; width: 100%;">
+                </div>
+
+                <div class="muru-stat-row mt-4">
+                    <div class="muru-stat">
+                        <div class="muru-stat-value">12+</div>
+                        <div class="muru-stat-label">Interviews conducted</div>
+                    </div>
+                    <div class="muru-stat">
+                        <div class="muru-stat-value">3</div>
+                        <div class="muru-stat-label">Agencies represented</div>
+                    </div>
+                    <div class="muru-stat">
+                        <div class="muru-stat-value">Military + Civilian</div>
+                        <div class="muru-stat-label">Medic types</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Information Architecture ── -->
         <section class="cs-content-block section-spacing alternate-bg">
             <div class="container">
                 <div class="cs-text-wrap text-center">
-                    <h2 class="section-title">Research & Discovery</h2>
-                    <p>Speaking with both the MURU team as well as Paramedics in the field we were able to start mapping
-                        out the key screens we would need to design for the application.</p>
+                    <span class="muru-label">Information Architecture</span>
+                    <h2 class="section-title">Mapping the Knowledge Hierarchy</h2>
+                    <p>Working with Steven and the team, we mapped out the full structure of EMS knowledge — from top-level protocol categories down to individual drug dosing and equipment specs.</p>
                 </div>
-                <div class="mt-4 text-center">
-                    <img src="../assets/muru/exp-map.svg" alt="Experience Map" class="cs-img-full glass-card">
+
+                <div class="muru-ia mt-4">
+                    <div class="muru-ia-root">Protocols</div>
+                    <div class="muru-ia-connector"></div>
+                    <div class="muru-ia-children">
+                        <div class="muru-ia-child">Medications</div>
+                        <div class="muru-ia-child">Equipment</div>
+                        <div class="muru-ia-child">Hospitals</div>
+                        <div class="muru-ia-child">Agencies</div>
+                    </div>
+                    <div class="muru-ia-connector"></div>
+                    <div class="muru-ia-grandchildren">
+                        <div class="muru-ia-grandchild">Drug name</div>
+                        <div class="muru-ia-grandchild">Dosing</div>
+                        <div class="muru-ia-grandchild">Contraindications</div>
+                        <div class="muru-ia-grandchild">Capabilities</div>
+                        <div class="muru-ia-grandchild">Distance</div>
+                        <div class="muru-ia-grandchild">Contact</div>
+                        <div class="muru-ia-grandchild">Protocol set</div>
+                        <div class="muru-ia-grandchild">Region</div>
+                    </div>
+                </div>
+
+                <div class="mt-5">
+                    <img src="../assets/muru/exp-map.svg" alt="Experience Map" class="cs-img-full glass-card" onerror="this.style.display='none'">
                 </div>
             </div>
         </section>
 
-        <!-- Content Section 3: Branding -->
+        <!-- ── User Stories ── -->
         <section class="cs-content-block section-spacing">
             <div class="container">
                 <div class="cs-text-wrap">
-                    <h2 class="section-title">Branding: Changing the Tone</h2>
-                    <p>After testing, we realized that the app needed a more serious tone and brand in order to be used
-                        effectively and with confidence. Our first approach was too playful to be taken seriously in the
-                        field.</p>
+                    <span class="muru-label">User Stories</span>
+                    <h2 class="section-title">Most Common 911 Calls in NYC</h2>
+                    <p>We ran a Jamboard session with Steven to map out the most common emergency scenarios — cardiac arrest, respiratory distress, trauma, stroke — and traced the exact information a medic would need to access at each stage of response.</p>
+                    <p style="margin-top: 1.25rem;">This helped us prioritize which protocol types needed to surface first, and how the search experience needed to handle lay-terms alongside clinical terminology. A medic should be able to type "chest pain" and get cardiac protocol results instantly.</p>
                 </div>
-                <div class="inline-grid mt-4">
-                    <img src="../assets/muru/brand0.png" alt="Brand Concept" class="cs-img-rounded">
-                    <img src="../assets/muru/brand1.png" alt="Brand Concept" class="cs-img-rounded">
-                    <img src="../assets/muru/brand3.png" alt="Brand Concept" class="cs-img-rounded">
-                    <img src="../assets/muru/brand4.png" alt="Brand Concept" class="cs-img-rounded">
+
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 2.5rem; flex-wrap: wrap;">
+                    <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1.25rem;">
+                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: #FEDF50; margin-bottom: 0.5rem;">Most Common</div>
+                        <div style="font-weight: 600; color: #fff; margin-bottom: 0.25rem;">Cardiac Arrest</div>
+                        <div style="font-size: 0.85rem; color: rgba(255,255,255,0.5);">CPR, AED, ACLS drugs</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1.25rem;">
+                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: #FEDF50; margin-bottom: 0.5rem;">Frequent</div>
+                        <div style="font-weight: 600; color: #fff; margin-bottom: 0.25rem;">Respiratory Distress</div>
+                        <div style="font-size: 0.85rem; color: rgba(255,255,255,0.5);">Nebulizers, intubation, dosing</div>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 1.25rem;">
+                        <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 2px; color: #FEDF50; margin-bottom: 0.5rem;">Critical</div>
+                        <div style="font-weight: 600; color: #fff; margin-bottom: 0.25rem;">Stroke</div>
+                        <div style="font-size: 0.85rem; color: rgba(255,255,255,0.5);">FAST protocol, nearest stroke center</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Interactive Media Showcase: Carousel / Grid -->
-        <section class="cs-media-showcase section-spacing alternate-bg">
-            <div class="container reveal">
+        <!-- ── Wireframes ── -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-text-wrap text-center">
+                    <span class="muru-label">Wireframes</span>
+                    <h2 class="section-title">Sketching the Core Flows</h2>
+                    <p>Before visual design, we mapped the key user flows: onboarding and protocol setup, the main search experience, and the detail view for protocols, medications, and equipment.</p>
+                </div>
+                <div class="inline-grid mt-4">
+                    <img src="../assets/muru/ob1.png" alt="Onboarding Wireframe" class="cs-img-rounded">
+                    <img src="../assets/muru/search1.png" alt="Search Wireframe" class="cs-img-rounded">
+                    <img src="../assets/muru/det1.png" alt="Detail Wireframe" class="cs-img-rounded">
+                </div>
+            </div>
+        </section>
 
+        <!-- ── User Testing ── -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <span class="muru-label">User Testing</span>
+                <h2 class="section-title">A Day with the EMTs</h2>
+                <p class="cs-text-wrap">We spent a full day at an EMT station, putting two prototypes in front of medics mid-shift. We tested two distinct approaches: a card-based browsing experience and a search-first model. The search-first model won convincingly — medics under pressure don't browse, they query.</p>
+
+                <div class="muru-split mt-4">
+                    <div>
+                        <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.4); margin-bottom: 0.75rem;">Prototype A — Browse Model</p>
+                        <img src="../assets/muru/prototype-v1.png" alt="Browse Prototype" class="cs-img-rounded">
+                    </div>
+                    <div>
+                        <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: rgba(255,255,255,0.4); margin-bottom: 0.75rem;">Prototype B — Search First</p>
+                        <img src="../assets/muru/prototype-search.png" alt="Search Prototype" class="cs-img-rounded">
+                    </div>
+                </div>
+
+                <div class="mt-4" style="background: rgba(45,212,191,0.06); border: 1px solid rgba(45,212,191,0.2); border-radius: 16px; padding: 1.5rem 2rem;">
+                    <p style="color: rgba(255,255,255,0.85); margin: 0;"><strong style="color: #2DD4BF;">Key insight:</strong> Medics relied on lay terms ("blue lips", "chest pain"), not clinical vocabulary. The search engine had to bridge that gap — returning relevant protocol results for both clinical and colloquial queries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Design Evolution ── -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-text-wrap">
+                    <span class="muru-label">Branding</span>
+                    <h2 class="section-title">Changing the Tone</h2>
+                    <p>Our first brand direction was too playful — bright colors and rounded forms that felt consumer-grade. After testing with medics, the feedback was clear: the app needed to feel serious, authoritative, and trustworthy. A medic's life — and their patient's life — depends on confidence in their tools.</p>
+                    <p style="margin-top: 1.25rem;">We moved to a dark, high-contrast palette with a focused teal accent. The visual language shifted from "app" to "instrument."</p>
+                </div>
+                <div class="inline-grid mt-4">
+                    <img src="../assets/muru/brand0.png" alt="Brand V1 — Playful" class="cs-img-rounded">
+                    <img src="../assets/muru/brand1.png" alt="Brand V1 — Colorful" class="cs-img-rounded">
+                    <img src="../assets/muru/brand3.png" alt="Brand V2 — Dark" class="cs-img-rounded">
+                    <img src="../assets/muru/brand4.png" alt="Brand V2 — Final" class="cs-img-rounded">
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Final Designs ── -->
+        <section class="cs-media-showcase section-spacing">
+            <div class="container">
                 <div class="cs-showcase-header mb-4">
                     <div>
-                        <h2 class="section-title" style="margin-bottom: 0.5rem;">Key Screens: Bringing It All Together
-                        </h2>
-                        <p class="section-subtitle">The app focuses on search with the ability to use lay-terms to help
-                            showcase related queries and results. <strong>Toggle the view below</strong> to explore the
-                            designs.</p>
+                        <span class="muru-label">Final Designs</span>
+                        <h2 class="section-title" style="margin-bottom: 0.5rem;">Bringing It All Together</h2>
+                        <p class="section-subtitle">Sign-in, onboarding, protocol search, dosing, and detail views — all optimized for one-handed use under time pressure. <strong>Toggle the view below</strong> to explore every screen.</p>
                     </div>
-
-                    <!-- View Toggle -->
                     <div class="view-toggle">
                         <button id="btn-carousel" class="toggle-btn active">Carousel</button>
                         <button id="btn-grid" class="toggle-btn">Grid</button>
                     </div>
                 </div>
 
-                <!-- Showcase Container -->
                 <div id="showcase-container" class="showcase-carousel-mode">
-                    <!-- Carousel Track (Will break into purely flex-wrap inside Grid Mode) -->
                     <div class="showcase-track">
-                        <!-- Key Screens (Onboarding, Search, Details) -->
                         <img src="../assets/muru/ob1.png" alt="Onboarding 1" class="showcase-item">
                         <img src="../assets/muru/ob2.png" alt="Onboarding 2" class="showcase-item">
                         <img src="../assets/muru/ob3.png" alt="Onboarding 3" class="showcase-item">
@@ -211,14 +546,93 @@
                         <img src="../assets/muru/det4.png" alt="Detail 4" class="showcase-item">
                     </div>
                 </div>
-
             </div>
         </section>
 
-        <!-- Pull Quote Testimonial -->
-        <section class="cs-testimonial section-spacing" style="background: var(--bg-alt); position: relative;">
+        <!-- ── COVID-19 Response ── -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="muru-split">
+                    <div>
+                        <span class="muru-label">COVID-19</span>
+                        <h2 class="section-title">Free for First Responders</h2>
+                        <p>When the pandemic hit, MURU made the platform free for all COVID-19 protocols. Within weeks, EMS agencies across the country were using MURU to distribute updated COVID response guidelines in real time — the exact scenario the platform was built for.</p>
+                    </div>
+                    <div>
+                        <img src="../assets/muru/website.png" alt="MURU Website" class="cs-img-rounded" onerror="this.style.display='none'">
+                        <div class="muru-covid-stats" style="margin-top: 1.5rem;">
+                            <div class="muru-covid-stat">
+                                <div class="muru-covid-stat-value">13</div>
+                                <div class="muru-covid-stat-label">COVID protocols</div>
+                            </div>
+                            <div class="muru-covid-stat">
+                                <div class="muru-covid-stat-value">30</div>
+                                <div class="muru-covid-stat-label">Alerts sent</div>
+                            </div>
+                            <div class="muru-covid-stat">
+                                <div class="muru-covid-stat-value">1,675</div>
+                                <div class="muru-covid-stat-label">Agencies served</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Public Reviews ── -->
+        <section class="cs-content-block section-spacing">
+            <div class="container">
+                <div class="cs-text-wrap text-center">
+                    <span class="muru-label">Reception</span>
+                    <h2 class="section-title">Medics Agreed</h2>
+                    <p>The App Store response from working paramedics validated what we heard in testing — MURU felt built for them, not for a general consumer audience.</p>
+                    <div class="muru-stars" style="justify-content: center;">
+                        <span class="muru-star">★</span>
+                        <span class="muru-star">★</span>
+                        <span class="muru-star">★</span>
+                        <span class="muru-star">★</span>
+                        <span class="muru-star">★</span>
+                        <span class="muru-rating">4.9 / 5</span>
+                    </div>
+                    <p style="margin-top: 0.75rem; font-size: 0.85rem; color: rgba(255,255,255,0.4);">App Store rating from verified EMS professionals</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── App of NY State ── -->
+        <section class="cs-content-block section-spacing alternate-bg">
+            <div class="container">
+                <div class="cs-text-wrap text-center">
+                    <span class="muru-label">Impact</span>
+                    <h2 class="section-title">Official App of New York State EMS</h2>
+                    <p>MURU was adopted as the official protocol app for New York State EMS — a meaningful validation that the design was trusted and functional at a system level.</p>
+                </div>
+
+                <div class="muru-ny-stats">
+                    <div class="muru-ny-stat">
+                        <div class="muru-ny-stat-value">3</div>
+                        <div class="muru-ny-stat-label">Protocol Sets</div>
+                    </div>
+                    <div class="muru-ny-stat">
+                        <div class="muru-ny-stat-value">18</div>
+                        <div class="muru-ny-stat-label">REMSCOs</div>
+                    </div>
+                    <div class="muru-ny-stat">
+                        <div class="muru-ny-stat-value">205</div>
+                        <div class="muru-ny-stat-label">Hospitals</div>
+                    </div>
+                    <div class="muru-ny-stat">
+                        <div class="muru-ny-stat-value">1,829</div>
+                        <div class="muru-ny-stat-label">EMS Agencies</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Testimonial ── -->
+        <section class="cs-testimonial section-spacing" style="background: #171717; position: relative;">
             <div class="container" style="position: relative; z-index: 10;">
-                <blockquote class="pull-quote" style="color: var(--text-primary); text-shadow: none;">
+                <blockquote class="pull-quote" style="color: rgba(255,255,255,0.9); text-shadow: none;">
                     "The entire Clade team did a phenomenal job. I would highly recommend Clade to anyone looking for a
                     great design partner. Thank you for believing in our team, mission and doing your very best work!"
                 </blockquote>
@@ -226,7 +640,7 @@
             </div>
         </section>
 
-        <!-- Prev / Next Navigation -->
+        <!-- ── Prev / Next Navigation ── -->
         <section class="cs-pagination section-spacing">
             <div class="container">
                 <div class="cs-nav-strip">
@@ -253,27 +667,28 @@
     <!-- Global Scripts -->
     <script src="../js/main.js" defer></script>
 
-    <!-- Case Study Specific Local Script -->
+    <!-- Carousel / Grid Toggle -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const btnCarousel = document.getElementById('btn-carousel');
             const btnGrid = document.getElementById('btn-grid');
             const showcaseContainer = document.getElementById('showcase-container');
 
-            // View Toggle Logic
-            btnCarousel.addEventListener('click', () => {
-                btnCarousel.classList.add('active');
-                btnGrid.classList.remove('active');
-                showcaseContainer.className = 'showcase-carousel-mode';
-            });
-
-            btnGrid.addEventListener('click', () => {
-                btnGrid.classList.add('active');
-                btnCarousel.classList.remove('active');
-                showcaseContainer.className = 'showcase-grid-mode';
-            });
+            if (btnCarousel && btnGrid && showcaseContainer) {
+                btnCarousel.addEventListener('click', () => {
+                    btnCarousel.classList.add('active');
+                    btnGrid.classList.remove('active');
+                    showcaseContainer.className = 'showcase-carousel-mode';
+                });
+                btnGrid.addEventListener('click', () => {
+                    btnGrid.classList.add('active');
+                    btnCarousel.classList.remove('active');
+                    showcaseContainer.className = 'showcase-grid-mode';
+                });
+            }
         });
     </script>
+
 </body>
 
 </html>
