@@ -38,7 +38,11 @@
         main .cs-nav-direction { color: #3B63E8; }
         main .cs-nav-card { background: #F5F5F5; border: 1px solid #E5E5E5; }
         main .cs-nav-title { color: #111111; }
-        /* ── ZB Hero Card ── */
+        /* ── ZB Hero background (theme-aware) ── */
+        html                  { --cs-hero-bg: linear-gradient(135deg, #0d2d1e 0%, #061a0f 100%); }
+        html[data-theme="light"] { --cs-hero-bg: linear-gradient(135deg, #f2f5ff 0%, #dce5ff 65%, #f2f5ff 100%); }
+
+        /* ── ZB Hero Card — Dark ── */
         .cs-hero-card {
             background: rgba(59, 99, 232, 0.1);
             border-color: rgba(59, 99, 232, 0.3);
@@ -56,10 +60,23 @@
             color: #6b8ef5;
             border-color: rgba(59, 99, 232, 0.45);
         }
-        /* Card content must stay white (sections below use dark-on-light) */
+        /* Dark: card text forced white (sections below use dark-on-light) */
         .cs-hero-card .cs-title { color: #ffffff; }
         .cs-hero-card .cs-subtitle { color: rgba(255,255,255,0.55); }
         .cs-hero-card .cs-hero-card-company { color: rgba(255,255,255,0.4); }
+
+        /* ── ZB Hero Card — Light ── */
+        [data-theme="light"] .cs-hero-card {
+            background: rgba(255, 255, 255, 0.88);
+            border-color: rgba(59, 99, 232, 0.22);
+        }
+        [data-theme="light"] .cs-hero-card::before {
+            background: linear-gradient(90deg, transparent, rgba(59, 99, 232, 0.45), transparent);
+        }
+        [data-theme="light"] .cs-hero-card-tags .platform-pill {
+            color: #3B63E8;
+            border-color: rgba(59, 99, 232, 0.35);
+        }
     </style>
 </head>
 
@@ -124,7 +141,7 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #0d2d1e 0%, #061a0f 100%);">
+        <header class="cs-hero cs-hero--card" style="background: var(--cs-hero-bg);">
             <div class="cs-hero-card-scene">
                 <div class="cs-hero-card">
                     <div class="cs-hero-card-glare"></div>

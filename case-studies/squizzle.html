@@ -32,7 +32,11 @@
         main .section-spacing.alternate-bg {
             background: rgba(59, 99, 232, 0.08) !important;
         }
-        /* ── Squizzle Hero Card ── */
+        /* ── Squizzle Hero background (theme-aware) ── */
+        html                  { --cs-hero-bg: linear-gradient(135deg, #1a0d2e 0%, #2d1a4a 100%); }
+        html[data-theme="light"] { --cs-hero-bg: linear-gradient(135deg, #f5f0ff 0%, #e8deff 65%, #f5f0ff 100%); }
+
+        /* ── Squizzle Hero Card — Dark ── */
         .cs-hero-card {
             background: rgba(59, 99, 232, 0.1);
             border-color: rgba(59, 99, 232, 0.28);
@@ -49,6 +53,19 @@
         .cs-hero-card-tags .platform-pill {
             color: #7b96f0;
             border-color: rgba(59, 99, 232, 0.5);
+        }
+
+        /* ── Squizzle Hero Card — Light ── */
+        [data-theme="light"] .cs-hero-card {
+            background: rgba(255, 255, 255, 0.88);
+            border-color: rgba(59, 99, 232, 0.22);
+        }
+        [data-theme="light"] .cs-hero-card::before {
+            background: linear-gradient(90deg, transparent, rgba(59, 99, 232, 0.45), transparent);
+        }
+        [data-theme="light"] .cs-hero-card-tags .platform-pill {
+            color: #3B63E8;
+            border-color: rgba(59, 99, 232, 0.35);
         }
     </style>
 </head>
@@ -114,7 +131,7 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #1a0d2e 0%, #2d1a4a 100%);">
+        <header class="cs-hero cs-hero--card" style="background: var(--cs-hero-bg);">
             <div class="cs-hero-card-scene">
                 <div class="cs-hero-card">
                     <div class="cs-hero-card-glare"></div>

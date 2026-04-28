@@ -1427,6 +1427,40 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
   }
 }
 
+/* =========================================================================
+   Hero Card — Light Mode Overrides
+   ========================================================================= */
+
+/* Text → dark */
+[data-theme="light"] .cs-hero-card .cs-title    { color: #111111; }
+[data-theme="light"] .cs-hero-card .cs-subtitle  { color: rgba(0,0,0,0.55); }
+[data-theme="light"] .cs-hero-card-company       { color: rgba(0,0,0,0.38); }
+[data-theme="light"] .cs-hero-card-role          { color: rgba(0,0,0,0.38); }
+
+/* Pill fallback (each page still overrides with its accent) */
+[data-theme="light"] .cs-hero-card-tags .platform-pill {
+  color: rgba(0,0,0,0.6);
+  border-color: rgba(0,0,0,0.14);
+}
+
+/* Softer shadow on light background */
+[data-theme="light"] .cs-hero-card {
+  box-shadow:
+    0 2px 0 rgba(255,255,255,0.9) inset,
+    0 24px 60px rgba(0,0,0,0.09);
+}
+[data-theme="light"] .cs-hero-card:hover {
+  box-shadow:
+    0 2px 0 rgba(255,255,255,0.9) inset,
+    0 36px 80px rgba(0,0,0,0.14);
+}
+
+/* Suppress white glare — invisible on white card anyway */
+[data-theme="light"] .cs-hero-card-glare,
+[data-theme="light"] .cs-hero-card:hover .cs-hero-card-glare {
+  opacity: 0 !important;
+}
+
 /* ─── Legacy visual-tilt (kept for any page not yet migrated) ─────────────── */
 .cs-hero--has-visual {
   flex-direction: column;

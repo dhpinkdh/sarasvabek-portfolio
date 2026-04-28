@@ -20,7 +20,11 @@
         main { --accent-color: #DD0033; }
         main .cs-nav-direction { color: #DD0033; }
         .cfa-accent { color: #DD0033; }
-        /* ── CFA Hero Card ── */
+        /* ── CFA Hero background (theme-aware) ── */
+        html                  { --cs-hero-bg: linear-gradient(135deg, #1a0005 0%, #2d0008 50%, #1a0005 100%); }
+        html[data-theme="light"] { --cs-hero-bg: linear-gradient(135deg, #fff0f2 0%, #ffd6dc 50%, #fff0f2 100%); }
+
+        /* ── CFA Hero Card — Dark ── */
         .cs-hero-card {
             background: rgba(221, 0, 51, 0.09);
             border-color: rgba(221, 0, 51, 0.28);
@@ -37,6 +41,19 @@
         .cs-hero-card-tags .platform-pill {
             color: #DD0033;
             border-color: rgba(221, 0, 51, 0.45);
+        }
+
+        /* ── CFA Hero Card — Light ── */
+        [data-theme="light"] .cs-hero-card {
+            background: rgba(255, 255, 255, 0.88);
+            border-color: rgba(221, 0, 51, 0.2);
+        }
+        [data-theme="light"] .cs-hero-card::before {
+            background: linear-gradient(90deg, transparent, rgba(221, 0, 51, 0.45), transparent);
+        }
+        [data-theme="light"] .cs-hero-card-tags .platform-pill {
+            color: #DD0033;
+            border-color: rgba(221, 0, 51, 0.3);
         }
         .cfa-section-label {
             font-size: 0.8rem;
@@ -194,7 +211,7 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #1a0005 0%, #2d0008 50%, #1a0005 100%);">
+        <header class="cs-hero cs-hero--card" style="background: var(--cs-hero-bg);">
             <div class="cs-hero-card-scene">
                 <div class="cs-hero-card">
                     <div class="cs-hero-card-glare"></div>

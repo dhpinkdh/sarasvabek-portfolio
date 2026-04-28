@@ -48,7 +48,11 @@
         main .cs-nav-direction { color: #FF0000; }
         main .cs-nav-card { background: #F5F5F5; border: 1px solid #E0E0E0; }
         main .cs-nav-title { color: #111111; }
-        /* ── Adobe Hero Card ── */
+        /* ── Adobe Hero background (theme-aware) ── */
+        html                  { --cs-hero-bg: linear-gradient(135deg, #1a0033 0%, #0d001a 100%); }
+        html[data-theme="light"] { --cs-hero-bg: linear-gradient(135deg, #fff5f5 0%, #ffe0e0 50%, #fff5f5 100%); }
+
+        /* ── Adobe Hero Card — Dark ── */
         .cs-hero-card {
             background: rgba(255, 0, 0, 0.07);
             border-color: rgba(255, 0, 0, 0.22);
@@ -66,9 +70,22 @@
             color: rgba(255, 100, 100, 0.95);
             border-color: rgba(255, 0, 0, 0.35);
         }
-        /* Card title/subtitle must stay white on dark hero bg */
+        /* Dark: card text forced white (sections below are light-themed) */
         .cs-hero-card .cs-title { color: #ffffff; }
         .cs-hero-card .cs-subtitle { color: rgba(255,255,255,0.55); }
+
+        /* ── Adobe Hero Card — Light ── */
+        [data-theme="light"] .cs-hero-card {
+            background: rgba(255, 255, 255, 0.88);
+            border-color: rgba(255, 0, 0, 0.18);
+        }
+        [data-theme="light"] .cs-hero-card::before {
+            background: linear-gradient(90deg, transparent, rgba(255, 0, 0, 0.4), transparent);
+        }
+        [data-theme="light"] .cs-hero-card-tags .platform-pill {
+            color: #CC0000;
+            border-color: rgba(255, 0, 0, 0.28);
+        }
     </style>
 </head>
 
@@ -133,7 +150,7 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #1a0033 0%, #0d001a 100%);">
+        <header class="cs-hero cs-hero--card" style="background: var(--cs-hero-bg);">
             <div class="cs-hero-card-scene">
                 <div class="cs-hero-card">
                     <div class="cs-hero-card-glare"></div>
