@@ -20,6 +20,24 @@
         main { --accent-color: #DD0033; }
         main .cs-nav-direction { color: #DD0033; }
         .cfa-accent { color: #DD0033; }
+        /* ── CFA Hero Card ── */
+        .cs-hero-card {
+            background: rgba(221, 0, 51, 0.09);
+            border-color: rgba(221, 0, 51, 0.28);
+            box-shadow: 0 2px 0 rgba(255,255,255,0.06) inset, 0 32px 80px rgba(221,0,51,0.18), 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .cs-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(221,0,51,0.9), transparent);
+            border-radius: 28px 28px 0 0;
+        }
+        .cs-hero-card-tags .platform-pill {
+            color: #DD0033;
+            border-color: rgba(221, 0, 51, 0.45);
+        }
         .cfa-section-label {
             font-size: 0.8rem;
             text-transform: uppercase;
@@ -176,19 +194,21 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero" style="background: #FCF8F3; min-height: 70vh;">
-            <div style="position: absolute; inset: 0; border: 10px solid #DD0033; pointer-events: none; z-index: 2;"></div>
-            <div style="position: absolute; inset: 0; display: grid; grid-template-columns: 1fr 1fr; align-items: center; z-index: 1; overflow: hidden;">
-                <div class="cs-hero-tilt" style="position: relative; height: 100%; display: flex; align-items: flex-end; justify-content: center; padding-bottom: 2rem; pointer-events: none;">
-                    <img src="../assets/cfa/hero-app-screen.png" alt="CFA Supply App"
-                        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); height: 85%; object-fit: contain; z-index: 2;">
-                    <img src="../assets/cfa/hero-phone-mockup.png" alt="Phone mockup"
-                        style="position: absolute; bottom: 0; left: 50%; transform: translateX(-45%); height: 90%; object-fit: contain; z-index: 1;">
-                </div>
-                <div style="padding: 4rem; display: flex; flex-direction: column; justify-content: center;">
-                    <img src="../assets/case_study_1.png" alt="Chick-fil-A Supply"
-                        style="max-width: 320px; margin-bottom: 1.5rem; object-fit: contain;">
-                    <p style="font-size: 1.4rem; font-weight: 700; color: #004F71;">Lead Product Designer</p>
+        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #1a0005 0%, #2d0008 50%, #1a0005 100%);">
+            <div class="cs-hero-card-scene">
+                <div class="cs-hero-card">
+                    <div class="cs-hero-card-glare"></div>
+                    <div class="cs-hero-card-meta">
+                        <div class="cs-hero-card-tags">
+                            <span class="platform-pill">Mobile App</span>
+                        </div>
+                        <span class="cs-hero-card-role">Lead Product Designer</span>
+                    </div>
+                    <div class="cs-hero-card-body">
+                        <span class="cs-hero-card-company">Chick-fil-A</span>
+                        <h1 class="cs-title">Supply App</h1>
+                        <p class="cs-subtitle">A net-new internal logistics app for Chick-fil-A restaurant operations — built from zero to shipped.</p>
+                    </div>
                 </div>
             </div>
         </header>

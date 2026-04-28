@@ -90,21 +90,37 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // --- Hero Tilt Effect ---
-    const csHero = document.querySelector('.cs-hero');
-    if (csHero) {
-        const tiltEl = csHero.querySelector('.cs-hero-tilt');
-        if (tiltEl) {
-            csHero.addEventListener('mousemove', (e) => {
-                const rect = csHero.getBoundingClientRect();
-                const x = (e.clientX - rect.left) / rect.width - 0.5;
-                const y = (e.clientY - rect.top) / rect.height - 0.5;
-                tiltEl.style.transform = `perspective(900px) rotateY(${x * 16}deg) rotateX(${-y * 10}deg) translateZ(20px)`;
-            });
-            csHero.addEventListener('mouseleave', () => {
-                tiltEl.style.transform = 'perspective(900px) rotateY(0deg) rotateX(0deg) translateZ(0px)';
-            });
-        }
+    // --- Hero Card Tilt + Glare Effect ---
+    const csHeroCard = document.querySelector('.cs-hero-card');
+    if (csHeroCard) {
+        const glare = csHeroCard.querySelector('.cs-hero-card-glare');
+
+        csHeroCard.addEventListener('mousemove', (e) => {
+            const rect = csHeroCard.getBoundingClientRect();
+            const x = (e.clientX - rect.left) / rect.width - 0.5;   // -0.5 → 0.5
+            const y = (e.clientY - rect.top)  / rect.height - 0.5;
+
+            // Tilt — fast response
+            csHeroCard.style.transition = 'transform 0.08s ease-out, box-shadow 0.35s ease';
+            csHeroCard.style.transform  =
+                `perspective(1400px) rotateY(${x * 18}deg) rotateX(${-y * 12}deg) translateZ(24px)`;
+
+            // Glare — tracks cursor position within card
+            if (glare) {
+                const gx = ((e.clientX - rect.left) / rect.width)  * 100;
+                const gy = ((e.clientY - rect.top)  / rect.height) * 100;
+                glare.style.background =
+                    `radial-gradient(circle at ${gx}% ${gy}%, rgba(255,255,255,0.16) 0%, transparent 65%)`;
+                glare.style.opacity = '1';
+            }
+        });
+
+        csHeroCard.addEventListener('mouseleave', () => {
+            // Slow snap back
+            csHeroCard.style.transition = 'transform 0.55s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.4s ease';
+            csHeroCard.style.transform  = 'perspective(1400px) rotateY(0deg) rotateX(0deg) translateZ(0px)';
+            if (glare) glare.style.opacity = '0';
+        });
     }
 
     // --- Mobile Menu Toggle ---

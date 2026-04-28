@@ -38,6 +38,28 @@
         main .cs-nav-direction { color: #3B63E8; }
         main .cs-nav-card { background: #F5F5F5; border: 1px solid #E5E5E5; }
         main .cs-nav-title { color: #111111; }
+        /* ── ZB Hero Card ── */
+        .cs-hero-card {
+            background: rgba(59, 99, 232, 0.1);
+            border-color: rgba(59, 99, 232, 0.3);
+            box-shadow: 0 2px 0 rgba(255,255,255,0.06) inset, 0 32px 80px rgba(59,99,232,0.2), 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .cs-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(59,99,232,0.9), transparent);
+            border-radius: 28px 28px 0 0;
+        }
+        .cs-hero-card-tags .platform-pill {
+            color: #6b8ef5;
+            border-color: rgba(59, 99, 232, 0.45);
+        }
+        /* Card content must stay white (sections below use dark-on-light) */
+        .cs-hero-card .cs-title { color: #ffffff; }
+        .cs-hero-card .cs-subtitle { color: rgba(255,255,255,0.55); }
+        .cs-hero-card .cs-hero-card-company { color: rgba(255,255,255,0.4); }
     </style>
 </head>
 
@@ -102,25 +124,21 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--has-visual" style="background: linear-gradient(135deg, #0d2d1e 0%, #061a0f 100%);">
-            <div class="cs-hero-overlay"></div>
-            <div class="container cs-hero-content">
-                <h1 class="cs-title">ZB Education</h1>
-                <p class="cs-subtitle">ZenBusiness · Guidance Division</p>
-            </div>
-            <div class="cs-hero-visual">
-                <div class="cs-hero-tilt" style="display: flex; gap: 1.5rem; align-items: flex-end; padding-bottom: 0;">
-                    <div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 2rem 2.5rem; text-align: center; backdrop-filter: blur(12px);">
-                        <div style="font-size: 3.5rem; font-weight: 800; color: #4ade80; line-height: 1;">77%</div>
-                        <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; color: rgba(255,255,255,0.5); margin-top: 0.5rem;">Traffic Growth</div>
+        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #0d2d1e 0%, #061a0f 100%);">
+            <div class="cs-hero-card-scene">
+                <div class="cs-hero-card">
+                    <div class="cs-hero-card-glare"></div>
+                    <div class="cs-hero-card-meta">
+                        <div class="cs-hero-card-tags">
+                            <span class="platform-pill">Web App</span>
+                            <span class="platform-pill">Mobile App</span>
+                        </div>
+                        <span class="cs-hero-card-role">Staff Product Designer</span>
                     </div>
-                    <div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 2rem 2.5rem; text-align: center; backdrop-filter: blur(12px); margin-bottom: 1.5rem;">
-                        <div style="font-size: 3.5rem; font-weight: 800; color: #4ade80; line-height: 1;">1.8k</div>
-                        <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; color: rgba(255,255,255,0.5); margin-top: 0.5rem;">Daily Active Users</div>
-                    </div>
-                    <div style="background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 20px; padding: 2rem 2.5rem; text-align: center; backdrop-filter: blur(12px);">
-                        <div style="font-size: 3.5rem; font-weight: 800; color: #4ade80; line-height: 1;">90d</div>
-                        <div style="font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1.5px; color: rgba(255,255,255,0.5); margin-top: 0.5rem;">Retention Focus</div>
+                    <div class="cs-hero-card-body">
+                        <span class="cs-hero-card-company">ZenBusiness</span>
+                        <h1 class="cs-title">ZB Education</h1>
+                        <p class="cs-subtitle">A personalized learning experience that drove 77% traffic growth and launched to 1,800+ daily active users.</p>
                     </div>
                 </div>
             </div>

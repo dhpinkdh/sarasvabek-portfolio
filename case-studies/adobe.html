@@ -48,6 +48,27 @@
         main .cs-nav-direction { color: #FF0000; }
         main .cs-nav-card { background: #F5F5F5; border: 1px solid #E0E0E0; }
         main .cs-nav-title { color: #111111; }
+        /* ── Adobe Hero Card ── */
+        .cs-hero-card {
+            background: rgba(255, 0, 0, 0.07);
+            border-color: rgba(255, 0, 0, 0.22);
+            box-shadow: 0 2px 0 rgba(255,255,255,0.06) inset, 0 32px 80px rgba(255,0,0,0.12), 0 8px 32px rgba(0,0,0,0.55);
+        }
+        .cs-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(255,0,0,0.85), transparent);
+            border-radius: 28px 28px 0 0;
+        }
+        .cs-hero-card-tags .platform-pill {
+            color: rgba(255, 100, 100, 0.95);
+            border-color: rgba(255, 0, 0, 0.35);
+        }
+        /* Card title/subtitle must stay white on dark hero bg */
+        .cs-hero-card .cs-title { color: #ffffff; }
+        .cs-hero-card .cs-subtitle { color: rgba(255,255,255,0.55); }
     </style>
 </head>
 
@@ -112,15 +133,23 @@
         </nav>
 
         <!-- Hero -->
-        <header class="cs-hero cs-hero--has-visual" style="background: linear-gradient(135deg, #1a0033 0%, #0d001a 100%);">
-            <div class="cs-hero-overlay"></div>
-            <div class="container cs-hero-content">
-                <h1 class="cs-title">Commerce Growth Tests</h1>
-                <p class="cs-subtitle">Adobe · B2C & B2B Growth</p>
-            </div>
-            <div class="cs-hero-visual">
-                <div class="cs-hero-tilt">
-                    <img src="../assets/case_study_3.png" alt="Adobe Commerce" style="border-radius: 16px; max-height: 300px;">
+        <header class="cs-hero cs-hero--card" style="background: linear-gradient(135deg, #1a0033 0%, #0d001a 100%);">
+            <div class="cs-hero-card-scene">
+                <div class="cs-hero-card">
+                    <div class="cs-hero-card-glare"></div>
+                    <div class="cs-hero-card-meta">
+                        <div class="cs-hero-card-tags">
+                            <span class="platform-pill">Desktop App</span>
+                            <span class="platform-pill">Mobile App</span>
+                            <span class="platform-pill">Web App</span>
+                        </div>
+                        <span class="cs-hero-card-role">Staff Growth Product Designer</span>
+                    </div>
+                    <div class="cs-hero-card-body">
+                        <span class="cs-hero-card-company">Adobe</span>
+                        <h1 class="cs-title">Commerce Growth Tests</h1>
+                        <p class="cs-subtitle">Three strategic B2C & B2B experiments targeting conversion, activation, and revenue across Adobe's platforms.</p>
+                    </div>
                 </div>
             </div>
         </header>

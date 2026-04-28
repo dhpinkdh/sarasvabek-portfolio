@@ -25,6 +25,24 @@
         main .meta-item h5 { color: #2DD4BF; }
         main .pull-quote { border-left: 4px solid #2DD4BF; }
         main .quote-author strong { color: #2DD4BF; }
+        /* ── MURU Hero Card ── */
+        .cs-hero-card {
+            background: rgba(45, 212, 191, 0.07);
+            border-color: rgba(45, 212, 191, 0.25);
+            box-shadow: 0 2px 0 rgba(255,255,255,0.06) inset, 0 32px 80px rgba(45,212,191,0.12), 0 8px 32px rgba(0,0,0,0.55);
+        }
+        .cs-hero-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(45,212,191,0.9), transparent);
+            border-radius: 28px 28px 0 0;
+        }
+        .cs-hero-card-tags .platform-pill {
+            color: #2DD4BF;
+            border-color: rgba(45, 212, 191, 0.4);
+        }
 
         /* ── MURU dark background override ── */
         main .cs-content-block,
@@ -285,16 +303,21 @@
         </nav>
 
         <!-- ── Hero ── -->
-        <header class="cs-hero cs-hero--has-visual" style="background: radial-gradient(ellipse at 20% 50%, rgba(45,212,191,0.12) 0%, #171717 60%);">
-            <div class="container cs-hero-content">
-                <img src="../assets/muru/logo.png" alt="MURU Logo" class="cs-logo" onerror="this.style.display='none'">
-                <h1 class="cs-title">MURU</h1>
-                <p class="cs-subtitle">Empowering Medics Worldwide</p>
-            </div>
-            <div class="cs-hero-visual">
-                <div class="cs-hero-tilt">
-                    <img src="../assets/muru/hero-tilted-phone.png" alt="MURU App on iPhone"
-                         onerror="this.src='../assets/muru/iphone-mockup.png'">
+        <header class="cs-hero cs-hero--card" style="background: radial-gradient(ellipse at 30% 50%, rgba(45,212,191,0.14) 0%, #171717 65%);">
+            <div class="cs-hero-card-scene">
+                <div class="cs-hero-card">
+                    <div class="cs-hero-card-glare"></div>
+                    <div class="cs-hero-card-meta">
+                        <div class="cs-hero-card-tags">
+                            <span class="platform-pill">Mobile App</span>
+                        </div>
+                        <span class="cs-hero-card-role">Design Lead</span>
+                    </div>
+                    <div class="cs-hero-card-body">
+                        <span class="cs-hero-card-company">MURU</span>
+                        <h1 class="cs-title">Empowering Medics Worldwide</h1>
+                        <p class="cs-subtitle">A specialized protocol app for EMTs and paramedics — instant access to every drug, procedure, and hospital, built for the field.</p>
+                    </div>
                 </div>
             </div>
         </header>
