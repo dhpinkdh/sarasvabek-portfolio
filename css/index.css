@@ -1288,6 +1288,16 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
   text-align: left;
 }
 
+/* ── Card + meta strip column wrapper ── */
+.cs-hero-card-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+  max-width: 680px;
+}
+
 /* Perspective wrapper — keeps perspective off the card so it doesn't flatten */
 .cs-hero-card-scene {
   perspective: 1400px;
@@ -1295,6 +1305,67 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
   align-items: center;
   justify-content: center;
   width: 100%;
+}
+
+/* ── Meta strip — Team + Timeline below the card ── */
+.cs-hero-meta-strip {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 620px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+}
+
+.cs-hero-meta-chip {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.75rem;
+  gap: 0.2rem;
+}
+
+.cs-hero-meta-chip + .cs-hero-meta-chip {
+  border-left: 1px solid rgba(255,255,255,0.08);
+}
+
+.cs-hero-meta-label {
+  font-size: 0.63rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: rgba(255,255,255,0.35);
+  font-family: inherit;
+}
+
+.cs-hero-meta-value {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.84);
+  font-family: inherit;
+}
+
+/* Light mode strip */
+[data-theme="light"] .cs-hero-meta-strip {
+  background: rgba(255,255,255,0.68);
+  border-color: rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+[data-theme="light"] .cs-hero-meta-chip + .cs-hero-meta-chip {
+  border-left-color: rgba(0,0,0,0.07);
+}
+
+[data-theme="light"] .cs-hero-meta-label {
+  color: rgba(0,0,0,0.38);
+}
+
+[data-theme="light"] .cs-hero-meta-value {
+  color: rgba(0,0,0,0.78);
 }
 
 /* The card itself */
@@ -1413,6 +1484,10 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
     padding: 6rem 1.25rem 4rem;
   }
 
+  .cs-hero-card-wrap {
+    gap: 1rem;
+  }
+
   .cs-hero-card {
     padding: 2rem 2rem 2.5rem;
     border-radius: 20px;
@@ -1424,6 +1499,24 @@ p, .small-text, .lead-text, .timeline-desc, .subsection-desc, .game-desc, .cs-in
 
   .cs-hero-card-meta {
     margin-bottom: 1.75rem;
+  }
+
+  .cs-hero-meta-chip {
+    padding: 0.85rem 1.25rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .cs-hero-meta-strip {
+    flex-direction: column;
+  }
+  .cs-hero-meta-chip + .cs-hero-meta-chip {
+    border-left: none;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  [data-theme="light"] .cs-hero-meta-chip + .cs-hero-meta-chip {
+    border-top-color: rgba(0,0,0,0.07);
+    border-left: none;
   }
 }
 
